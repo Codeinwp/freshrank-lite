@@ -22,6 +22,8 @@ Stop guessing what's wrong with your content. Analyze your WordPress posts, and 
 - Search optimization recommendations
 - AI platform visibility optimization
 
+**🌐 Try it online first at [freshrank.ai](https://freshrank.ai)** — Test the analysis feature in your browser before installing the plugin.
+
 ### ✒️ AI-assisted Draft Generation
 - Use AI to fix the most important user experience issues
 - Full approval workflow
