@@ -2,8 +2,8 @@
 /**
  * Plugin Name: FreshRank AI Lite
  * Plugin URI: https://freshrank.ai
- * Description: AI-powered SEO & GEO (Generative Engine Optimization) - Optimize content for traditional search engines AND AI platforms (ChatGPT, Claude, Perplexity). Automatic content analysis, updates, and prioritization using GPT-5 and Google Search Console data.
- * Version: 2.0.2-dev.f7a52c2
+ * Description: Stop guessing what’s wrong with your content. FreshRank analyzes your WordPress posts to deliver actionable insights that improve user experience, engagement, and rankings.
+ * Version: 1.0.0
  * Author: FreshRank AI
  * Author URI: https://freshrank.ai
  * License: GPL v2 or later
