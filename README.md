@@ -109,9 +109,3 @@ Your API keys are also stored securely in your WordPress database and never shar
 2. Navigate to **Settings**
 3. Enter your OpenAI API key
 4. Start analyzing your content!
-
-## Screenshots
-1. FreshRank dashboard
-2. Post analysis results
-3. Draft details screen
-4. API usage tracking
