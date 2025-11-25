@@ -45,51 +45,361 @@ class FreshRank_Settings {
 	 * Initialize settings registration
 	 */
 	public function init_settings() {
-		register_setting( 'freshrank_settings', 'freshrank_prioritization_enabled' );
+		// Boolean settings
+		register_setting(
+			'freshrank_settings',
+			'freshrank_prioritization_enabled',
+			array(
+				'type'              => 'boolean',
+				'sanitize_callback' => 'absint',
+				'default'           => 0,
+			)
+		);
 
 		// AI Provider settings
-		register_setting( 'freshrank_settings', 'freshrank_ai_provider' );
-		register_setting( 'freshrank_settings', 'freshrank_openai_api_key' );
-		register_setting( 'freshrank_settings', 'freshrank_openrouter_api_key' );
-		register_setting( 'freshrank_settings', 'freshrank_openrouter_model_analysis' );
-		register_setting( 'freshrank_settings', 'freshrank_openrouter_model_writing' );
-		register_setting( 'freshrank_settings', 'freshrank_openrouter_custom_model_analysis' );
-		register_setting( 'freshrank_settings', 'freshrank_openrouter_custom_model_writing' );
-		register_setting( 'freshrank_settings', 'freshrank_openai_model' );
-		register_setting( 'freshrank_settings', 'freshrank_analysis_model' );
-		register_setting( 'freshrank_settings', 'freshrank_content_model' );
-		register_setting( 'freshrank_settings', 'freshrank_enable_web_search' );
-		register_setting( 'freshrank_settings', 'freshrank_rate_limit_delay' );
-		register_setting( 'freshrank_settings', 'freshrank_debug_mode' );
-		register_setting( 'freshrank_settings', 'freshrank_gsc_client_id' );
-		register_setting( 'freshrank_settings', 'freshrank_gsc_client_secret' );
-		register_setting( 'freshrank_settings', 'freshrank_gsc_date_type' );
+		register_setting(
+			'freshrank_settings',
+			'freshrank_ai_provider',
+			array(
+				'type'              => 'string',
+				'sanitize_callback' => 'sanitize_text_field',
+				'default'           => 'openai',
+			)
+		);
+
+		register_setting(
+			'freshrank_settings',
+			'freshrank_openai_api_key',
+			array(
+				'type'              => 'string',
+				'sanitize_callback' => 'sanitize_text_field',
+				'default'           => '',
+			)
+		);
+
+		register_setting(
+			'freshrank_settings',
+			'freshrank_openrouter_api_key',
+			array(
+				'type'              => 'string',
+				'sanitize_callback' => 'sanitize_text_field',
+				'default'           => '',
+			)
+		);
+
+		register_setting(
+			'freshrank_settings',
+			'freshrank_openrouter_model_analysis',
+			array(
+				'type'              => 'string',
+				'sanitize_callback' => 'sanitize_text_field',
+				'default'           => '',
+			)
+		);
+
+		register_setting(
+			'freshrank_settings',
+			'freshrank_openrouter_model_writing',
+			array(
+				'type'              => 'string',
+				'sanitize_callback' => 'sanitize_text_field',
+				'default'           => '',
+			)
+		);
+
+		register_setting(
+			'freshrank_settings',
+			'freshrank_openrouter_custom_model_analysis',
+			array(
+				'type'              => 'string',
+				'sanitize_callback' => 'sanitize_text_field',
+				'default'           => '',
+			)
+		);
+
+		register_setting(
+			'freshrank_settings',
+			'freshrank_openrouter_custom_model_writing',
+			array(
+				'type'              => 'string',
+				'sanitize_callback' => 'sanitize_text_field',
+				'default'           => '',
+			)
+		);
+
+		register_setting(
+			'freshrank_settings',
+			'freshrank_openai_model',
+			array(
+				'type'              => 'string',
+				'sanitize_callback' => 'sanitize_text_field',
+				'default'           => '',
+			)
+		);
+
+		register_setting(
+			'freshrank_settings',
+			'freshrank_analysis_model',
+			array(
+				'type'              => 'string',
+				'sanitize_callback' => 'sanitize_text_field',
+				'default'           => 'gpt-5',
+			)
+		);
+
+		register_setting(
+			'freshrank_settings',
+			'freshrank_content_model',
+			array(
+				'type'              => 'string',
+				'sanitize_callback' => 'sanitize_text_field',
+				'default'           => 'gpt-5',
+			)
+		);
+
+		register_setting(
+			'freshrank_settings',
+			'freshrank_enable_web_search',
+			array(
+				'type'              => 'boolean',
+				'sanitize_callback' => 'absint',
+				'default'           => 0,
+			)
+		);
+
+		register_setting(
+			'freshrank_settings',
+			'freshrank_rate_limit_delay',
+			array(
+				'type'              => 'integer',
+				'sanitize_callback' => 'absint',
+				'default'           => 1000,
+			)
+		);
+
+		register_setting(
+			'freshrank_settings',
+			'freshrank_debug_mode',
+			array(
+				'type'              => 'boolean',
+				'sanitize_callback' => 'absint',
+				'default'           => 0,
+			)
+		);
+
+		register_setting(
+			'freshrank_settings',
+			'freshrank_gsc_client_id',
+			array(
+				'type'              => 'string',
+				'sanitize_callback' => 'sanitize_text_field',
+				'default'           => '',
+			)
+		);
+
+		register_setting(
+			'freshrank_settings',
+			'freshrank_gsc_client_secret',
+			array(
+				'type'              => 'string',
+				'sanitize_callback' => 'sanitize_text_field',
+				'default'           => '',
+			)
+		);
+
+		register_setting(
+			'freshrank_settings',
+			'freshrank_gsc_date_type',
+			array(
+				'type'              => 'string',
+				'sanitize_callback' => 'sanitize_text_field',
+				'default'           => 'post_date',
+			)
+		);
 
 		// Category filter settings (matrix system)
-		register_setting( 'freshrank_settings', 'freshrank_fix_factual_updates' );
-		register_setting( 'freshrank_settings', 'freshrank_fix_user_experience' );
-		register_setting( 'freshrank_settings', 'freshrank_fix_search_optimization' );
-		register_setting( 'freshrank_settings', 'freshrank_fix_ai_visibility' );
-		register_setting( 'freshrank_settings', 'freshrank_fix_opportunities' );
+		register_setting(
+			'freshrank_settings',
+			'freshrank_fix_factual_updates',
+			array(
+				'type'              => 'boolean',
+				'sanitize_callback' => 'absint',
+				'default'           => 1,
+			)
+		);
+
+		register_setting(
+			'freshrank_settings',
+			'freshrank_fix_user_experience',
+			array(
+				'type'              => 'boolean',
+				'sanitize_callback' => 'absint',
+				'default'           => 0,
+			)
+		);
+
+		register_setting(
+			'freshrank_settings',
+			'freshrank_fix_search_optimization',
+			array(
+				'type'              => 'boolean',
+				'sanitize_callback' => 'absint',
+				'default'           => 0,
+			)
+		);
+
+		register_setting(
+			'freshrank_settings',
+			'freshrank_fix_ai_visibility',
+			array(
+				'type'              => 'boolean',
+				'sanitize_callback' => 'absint',
+				'default'           => 0,
+			)
+		);
+
+		register_setting(
+			'freshrank_settings',
+			'freshrank_fix_opportunities',
+			array(
+				'type'              => 'boolean',
+				'sanitize_callback' => 'absint',
+				'default'           => 0,
+			)
+		);
 
 		// Severity level settings (matrix system)
-		register_setting( 'freshrank_settings', 'freshrank_severity_high' );
-		register_setting( 'freshrank_settings', 'freshrank_severity_medium' );
-		register_setting( 'freshrank_settings', 'freshrank_severity_low' );
+		register_setting(
+			'freshrank_settings',
+			'freshrank_severity_high',
+			array(
+				'type'              => 'boolean',
+				'sanitize_callback' => 'absint',
+				'default'           => 1,
+			)
+		);
+
+		register_setting(
+			'freshrank_settings',
+			'freshrank_severity_medium',
+			array(
+				'type'              => 'boolean',
+				'sanitize_callback' => 'absint',
+				'default'           => 0,
+			)
+		);
+
+		register_setting(
+			'freshrank_settings',
+			'freshrank_severity_low',
+			array(
+				'type'              => 'boolean',
+				'sanitize_callback' => 'absint',
+				'default'           => 0,
+			)
+		);
 
 		// Custom prompt append settings
-		register_setting( 'freshrank_settings', 'freshrank_custom_instructions_enabled' );
-		register_setting( 'freshrank_settings', 'freshrank_custom_analysis_prompt' );
-		register_setting( 'freshrank_settings', 'freshrank_custom_rewrite_prompt' );
+		register_setting(
+			'freshrank_settings',
+			'freshrank_custom_instructions_enabled',
+			array(
+				'type'              => 'boolean',
+				'sanitize_callback' => 'absint',
+				'default'           => 0,
+			)
+		);
+
+		register_setting(
+			'freshrank_settings',
+			'freshrank_custom_analysis_prompt',
+			array(
+				'type'              => 'string',
+				'sanitize_callback' => 'sanitize_textarea_field',
+				'default'           => '',
+			)
+		);
+
+		register_setting(
+			'freshrank_settings',
+			'freshrank_custom_rewrite_prompt',
+			array(
+				'type'              => 'string',
+				'sanitize_callback' => 'sanitize_textarea_field',
+				'default'           => '',
+			)
+		);
 
 		// White-label settings (Pro only)
-		register_setting( 'freshrank_settings', 'freshrank_whitelabel_enabled' );
-		register_setting( 'freshrank_settings', 'freshrank_whitelabel_plugin_name' );
-		register_setting( 'freshrank_settings', 'freshrank_whitelabel_logo_url' );
-		register_setting( 'freshrank_settings', 'freshrank_whitelabel_primary_color' );
-		register_setting( 'freshrank_settings', 'freshrank_whitelabel_support_email' );
-		register_setting( 'freshrank_settings', 'freshrank_whitelabel_docs_url' );
-		register_setting( 'freshrank_settings', 'freshrank_whitelabel_hide_branding' );
+		register_setting(
+			'freshrank_settings',
+			'freshrank_whitelabel_enabled',
+			array(
+				'type'              => 'boolean',
+				'sanitize_callback' => 'absint',
+				'default'           => 0,
+			)
+		);
+
+		register_setting(
+			'freshrank_settings',
+			'freshrank_whitelabel_plugin_name',
+			array(
+				'type'              => 'string',
+				'sanitize_callback' => 'sanitize_text_field',
+				'default'           => 'FreshRank AI',
+			)
+		);
+
+		register_setting(
+			'freshrank_settings',
+			'freshrank_whitelabel_logo_url',
+			array(
+				'type'              => 'string',
+				'sanitize_callback' => 'esc_url_raw',
+				'default'           => '',
+			)
+		);
+
+		register_setting(
+			'freshrank_settings',
+			'freshrank_whitelabel_primary_color',
+			array(
+				'type'              => 'string',
+				'sanitize_callback' => 'sanitize_hex_color',
+				'default'           => '#0073aa',
+			)
+		);
+
+		register_setting(
+			'freshrank_settings',
+			'freshrank_whitelabel_support_email',
+			array(
+				'type'              => 'string',
+				'sanitize_callback' => 'sanitize_email',
+				'default'           => '',
+			)
+		);
+
+		register_setting(
+			'freshrank_settings',
+			'freshrank_whitelabel_docs_url',
+			array(
+				'type'              => 'string',
+				'sanitize_callback' => 'esc_url_raw',
+				'default'           => '',
+			)
+		);
+
+		register_setting(
+			'freshrank_settings',
+			'freshrank_whitelabel_hide_branding',
+			array(
+				'type'              => 'boolean',
+				'sanitize_callback' => 'absint',
+				'default'           => 0,
+			)
+		);
 	}
 
 	/**

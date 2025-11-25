@@ -45,7 +45,7 @@ class FreshRank_Content_Validator {
 	 * @throws Exception If parsing fails
 	 */
 	public function parse_update_result( $result ) {
-		if ( get_option( 'freshrank_debug_mode', false ) ) {
+		if ( get_option( 'freshrank_debug_mode', 0 ) ) {
 			if ( ! function_exists( 'wp_tempnam' ) ) {
 				require_once ABSPATH . 'wp-admin/includes/file.php';
 			}
@@ -154,7 +154,7 @@ class FreshRank_Content_Validator {
 			$error_msg .= ' The response is incomplete (unclosed JSON). Try reducing content complexity or using a model with higher token limits.';
 		}
 
-		if ( get_option( 'freshrank_debug_mode', false ) ) {
+		if ( get_option( 'freshrank_debug_mode', 0 ) ) {
 			freshrank_debug_log( 'All JSON parsing strategies failed.' );
 			freshrank_debug_log( 'First 500 chars: ' . substr( $result, 0, 500 ) );
 			freshrank_debug_log( 'Last 500 chars: ' . substr( $result, -500 ) );

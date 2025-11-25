@@ -314,7 +314,7 @@ class FreshRank_Settings_Advanced {
 	 * Render notification settings page
 	 */
 	public function render_notification_settings() {
-		$debug_mode = get_option( 'freshrank_debug_mode', false );
+		$debug_mode = get_option( 'freshrank_debug_mode', 0 );
 
 		?>
 		<table class="form-table">
@@ -351,13 +351,13 @@ class FreshRank_Settings_Advanced {
 	 */
 	public function render_whitelabel_settings() {
 		// Get current white-label settings
-		$whitelabel_enabled = get_option( 'freshrank_whitelabel_enabled', false );
+		$whitelabel_enabled = get_option( 'freshrank_whitelabel_enabled', 1 );
 		$plugin_name        = get_option( 'freshrank_whitelabel_plugin_name', 'FreshRank AI' );
 		$logo_url           = get_option( 'freshrank_whitelabel_logo_url', '' );
 		$primary_color      = get_option( 'freshrank_whitelabel_primary_color', '#0073aa' );
 		$support_email      = get_option( 'freshrank_whitelabel_support_email', '' );
 		$docs_url           = get_option( 'freshrank_whitelabel_docs_url', 'https://freshrank.ai/docs' );
-		$hide_branding      = get_option( 'freshrank_whitelabel_hide_branding', false );
+		$hide_branding      = get_option( 'freshrank_whitelabel_hide_branding', 0 );
 
 		?>
 		<style>

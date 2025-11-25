@@ -231,7 +231,7 @@ class FreshRank_Dashboard {
 		);
 
 		// Add debug log viewer (only if debug mode is enabled)
-		if ( get_option( 'freshrank_debug_mode', false ) ) {
+		if ( get_option( 'freshrank_debug_mode', 0 ) ) {
 			add_submenu_page(
 				'freshrank-ai',
 				__( 'Debug Log', 'freshrank-ai' ),
@@ -297,7 +297,7 @@ class FreshRank_Dashboard {
 			'nonce'        => wp_create_nonce( 'freshrank_nonce' ),
 			'settings_url' => admin_url( 'admin.php?page=freshrank-settings' ),
 			'admin_url'    => admin_url(),
-			'debug'        => get_option( 'freshrank_debug_mode', false ),
+			'debug'        => get_option( 'freshrank_debug_mode', 0 ),
 			'strings'      => array(
 				'confirm_approve'         => __( 'Are you sure you want to approve this draft? The original post will be replaced.', 'freshrank-ai' ),
 				'confirm_reject'          => __( 'Are you sure you want to reject this draft? It will be permanently deleted.', 'freshrank-ai' ),
@@ -1070,7 +1070,7 @@ class FreshRank_Dashboard {
 		$has_filters_active        = ! empty( $filters );
 
 		$articles               = $this->database->get_articles_with_scores( $per_page, $offset, $filters );
-		$prioritization_enabled = ! freshrank_is_free_version() && get_option( 'freshrank_prioritization_enabled', false );
+		$prioritization_enabled = ! freshrank_is_free_version() && get_option( 'freshrank_prioritization_enabled', 0 );
 
 		// BATCH FETCH: Get all analyses and drafts in one query to avoid N+1 problem
 		$post_ids       = wp_list_pluck( $articles, 'ID' );
@@ -1350,7 +1350,7 @@ class FreshRank_Dashboard {
 						};
 		?>
 						<th class="column-title-enhanced"><?php _e( 'Article', 'freshrank-ai' ); ?></th>
-						<?php if ( get_option( 'freshrank_prioritization_enabled', false ) ) : ?>
+						<?php if ( get_option( 'freshrank_prioritization_enabled', 0 ) ) : ?>
 							<th class="column-priority sortable">
 								<?php echo $generate_sortable_header( 'priority', __( 'Priority', 'freshrank-ai' ) ); ?>
 							</th>
@@ -1480,7 +1480,7 @@ class FreshRank_Dashboard {
 		$last_ai_update     = get_post_meta( $post_id, '_freshrank_last_ai_update', true );
 		$has_revision_draft = ! empty( $last_ai_update );
 
-		$prioritization_enabled = ! freshrank_is_free_version() && get_option( 'freshrank_prioritization_enabled', false );
+		$prioritization_enabled = ! freshrank_is_free_version() && get_option( 'freshrank_prioritization_enabled', 0 );
 
 		// Build row classes
 		$row_classes = array( 'freshrank-article-row', 'wsau-article-row' );
@@ -2982,7 +2982,7 @@ define('WP_DEBUG_DISPLAY', false);</pre>
 			<?php
 			// Check if GSC is connected
 			$gsc_authenticated      = get_option( 'freshrank_gsc_authenticated', false );
-			$prioritization_enabled = ! freshrank_is_free_version() && get_option( 'freshrank_prioritization_enabled', false );
+			$prioritization_enabled = ! freshrank_is_free_version() && get_option( 'freshrank_prioritization_enabled', default_value: 0 );
 
 			if ( ! $gsc_authenticated || ! $prioritization_enabled ) :
 				?>

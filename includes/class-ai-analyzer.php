@@ -1138,7 +1138,7 @@ Be thorough, strategic, and specific. This is a deep research analysis - take ti
 	private function parse_analysis_result( $result ) {
 		// Log raw result for debugging
 		// Only emit truncated samples in debug mode to avoid leaking content into logs
-		if ( get_option( 'freshrank_debug_mode', false ) ) {
+		if ( get_option( 'freshrank_debug_mode', 0 ) ) {
 			$preview = mb_substr( $result, 0, 500 );
 			if ( strlen( $result ) > 500 ) {
 				$preview .= '…';
@@ -1189,7 +1189,7 @@ Be thorough, strategic, and specific. This is a deep research analysis - take ti
 		}
 
 		// All strategies failed - log concise error
-		if ( get_option( 'freshrank_debug_mode', false ) ) {
+		if ( get_option( 'freshrank_debug_mode', 0 ) ) {
 			$json_error_msg = json_last_error_msg();
 			freshrank_debug_log( 'JSON parsing failed. Error: ' . $json_error_msg . ' (length: ' . strlen( $result ) . ')' );
 		}
@@ -1197,7 +1197,7 @@ Be thorough, strategic, and specific. This is a deep research analysis - take ti
 		// Strategy 5: Try to fix common JSON issues
 		$fixed_result = $this->attempt_json_repair( $result );
 		if ( $fixed_result !== null ) {
-			if ( get_option( 'freshrank_debug_mode', false ) ) {
+			if ( get_option( 'freshrank_debug_mode', 0 ) ) {
 				freshrank_debug_log( 'JSON repair successful' );
 			}
 			return $this->validate_analysis_structure( $fixed_result );

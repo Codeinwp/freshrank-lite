@@ -1,0 +1,2817 @@
+# Copyright (C) 2025 FreshRank AI Team
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: FreshRank AI\n"
+"Report-Msgid-Bugs-To: https://github.com/Codeinwp/freshrank-ai/issues\n"
+"Last-Translator: friends@themeisle.com\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: freshrank-ai\n"
+
+#. Plugin Name of the plugin
+#: freshrank-gsc-mock.php
+msgid "FreshRank GSC Mock"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: freshrank-gsc-mock.php
+msgid "https://freshrank.ai"
+msgstr ""
+
+#. Description of the plugin
+#: freshrank-gsc-mock.php
+msgid "Development-only mock for Google Search Console data in FreshRank AI. Activate to use simulated GSC data for local testing."
+msgstr ""
+
+#. Author of the plugin
+#: freshrank-gsc-mock.php
+msgid "FreshRank AI Team"
+msgstr ""
+
+#: freshrank-ai.php:37
+#: freshrank-ai.php:40
+msgid "FreshRank AI Lite"
+msgstr ""
+
+#: freshrank-ai.php:38
+#: freshrank-ai.php:41
+msgid "FreshRank AI Pro"
+msgstr ""
+
+#. translators: %1$s is the current plugin name, %2$s is the active plugin name
+#: freshrank-ai.php:45
+msgid "%1$s was deactivated because %2$s is already active. Only one FreshRank AI edition can run at a time."
+msgstr ""
+
+#: freshrank-ai.php:468
+#: includes/class-dashboard.php:226
+#: includes/class-dashboard.php:227
+#: includes/class-settings.php:114
+#: includes/class-settings.php:218
+msgid "Settings"
+msgstr ""
+
+#: freshrank-ai.php:717
+msgid "Prioritization started successfully"
+msgstr ""
+
+#: freshrank-ai.php:745
+msgid "GSC data refreshed successfully"
+msgstr ""
+
+#: freshrank-ai.php:768
+msgid "No prioritization in progress"
+msgstr ""
+
+#: freshrank-ai.php:789
+msgid "Prioritization cancelled successfully"
+msgstr ""
+
+#: freshrank-ai.php:817
+msgid "Article analyzed successfully"
+msgstr ""
+
+#: freshrank-ai.php:957
+msgid "Bulk analysis completed"
+msgstr ""
+
+#: freshrank-ai.php:975
+#: freshrank-ai.php:1003
+msgid "Invalid analysis category"
+msgstr ""
+
+#: freshrank-ai.php:982
+msgid "Item dismissed successfully"
+msgstr ""
+
+#: freshrank-ai.php:984
+msgid "Failed to dismiss item"
+msgstr ""
+
+#: freshrank-ai.php:1010
+msgid "Item restored successfully"
+msgstr ""
+
+#: freshrank-ai.php:1012
+msgid "Failed to restore item"
+msgstr ""
+
+#: freshrank-ai.php:1037
+msgid "View preference saved"
+msgstr ""
+
+#: freshrank-ai.php:1078
+msgid "A draft already exists for this article. Please approve or reject it first."
+msgstr ""
+
+#: freshrank-ai.php:1115
+msgid "Draft creation already in progress for this article. Please wait a moment and try again."
+msgstr ""
+
+#: freshrank-ai.php:1136
+msgid "Draft created successfully!"
+msgstr ""
+
+#: freshrank-ai.php:1145
+msgid "Failed to create draft - no draft ID returned"
+msgstr ""
+
+#: freshrank-ai.php:1167
+msgid "Bulk updates completed"
+msgstr ""
+
+#: freshrank-ai.php:1199
+msgid "Draft approved and published. Article has been reset for fresh analysis."
+msgstr ""
+
+#: freshrank-ai.php:1342
+msgid "AI update approved. Content is now live!"
+msgstr ""
+
+#: freshrank-ai.php:1401
+msgid "Old draft cleared. Create a new draft to use the revision-based system."
+msgstr ""
+
+#: freshrank-ai.php:1412
+msgid "No AI update found to reject."
+msgstr ""
+
+#: freshrank-ai.php:1464
+msgid "Old draft cleared. Please create a new draft to see revision-based changes."
+msgstr ""
+
+#: freshrank-ai.php:1472
+msgid "Failed to restore previous version."
+msgstr ""
+
+#: freshrank-ai.php:1509
+msgid "AI update rejected. Previous version restored."
+msgstr ""
+
+#: freshrank-ai.php:1528
+msgid "Original or draft post not found"
+msgstr ""
+
+#: freshrank-ai.php:1568
+msgid "Article order saved"
+msgstr ""
+
+#. translators: %s is the number of calls
+#: freshrank-ai.php:2045
+msgid "Usage: %s calls"
+msgstr ""
+
+#. translators: %1$d is the rank number
+#: freshrank-ai.php:2054
+msgid "Rank #%1$d on OpenRouter"
+msgstr ""
+
+#: freshrank-ai.php:2250
+msgid "Post not found"
+msgstr ""
+
+#. translators: %s is the article title
+#: freshrank-ai.php:2312
+msgid "Article \"%s\" deleted successfully"
+msgstr ""
+
+#: freshrank-ai.php:2315
+msgid "Failed to delete article"
+msgstr ""
+
+#: freshrank-ai.php:2333
+msgid "No articles selected"
+msgstr ""
+
+#. translators: %d is the post ID
+#: freshrank-ai.php:2344
+msgid "Post ID %d not found"
+msgstr ""
+
+#. translators: %d is the post ID
+#: freshrank-ai.php:2402
+msgid "Failed to delete post ID %d"
+msgstr ""
+
+#. translators: %d is the number of articles deleted
+#: freshrank-ai.php:2410
+msgid "%d article deleted successfully"
+msgid_plural "%d articles deleted successfully"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d is the number of errors
+#: freshrank-ai.php:2414
+msgid "(%d errors)"
+msgstr ""
+
+#: freshrank-ai.php:2426
+msgid "No articles were deleted"
+msgstr ""
+
+#: includes/class-ai-analyzer.php:165
+#: includes/class-ai-analyzer.php:300
+#: includes/class-content-updater.php:54
+#: includes/class-content-updater.php:188
+#: includes/class-gsc-api.php:426
+#: includes/class-gsc-api.php:553
+msgid "Permission denied. You do not have sufficient permissions to perform this action."
+msgstr ""
+
+#: includes/class-ai-analyzer.php:177
+msgid "Analysis already in progress for this article. Please wait or refresh the page."
+msgstr ""
+
+#: includes/class-ai-analyzer.php:225
+msgid "Analysis already started by another process."
+msgstr ""
+
+#: includes/class-ai-analyzer.php:1075
+msgid "OpenRouter support is not available in this build."
+msgstr ""
+
+#: includes/class-dashboard.php:205
+#: includes/class-dashboard.php:206
+msgid "Dashboard"
+msgstr ""
+
+#: includes/class-dashboard.php:216
+#: includes/class-dashboard.php:217
+msgid "Analytics"
+msgstr ""
+
+#: includes/class-dashboard.php:237
+#: includes/class-dashboard.php:238
+#: includes/class-dashboard.php:2826
+msgid "Debug Log"
+msgstr ""
+
+#: includes/class-dashboard.php:302
+msgid "Are you sure you want to approve this draft? The original post will be replaced."
+msgstr ""
+
+#: includes/class-dashboard.php:303
+msgid "Are you sure you want to reject this draft? It will be permanently deleted."
+msgstr ""
+
+#: includes/class-dashboard.php:304
+msgid "This will analyze all selected articles. This may take several minutes. Continue?"
+msgstr ""
+
+#: includes/class-dashboard.php:305
+msgid "This will create updated drafts for all analyzed articles. This may take several minutes. Continue?"
+msgstr ""
+
+#: includes/class-dashboard.php:306
+msgid "This will fetch Google Search Console data and prioritize all articles based on SEO performance. This may take several minutes. Continue?"
+msgstr ""
+
+#: includes/class-dashboard.php:307
+msgid "WARNING: This will permanently delete the article and all its FreshRank data. This action cannot be undone!\\n\\nAre you sure?"
+msgstr ""
+
+#: includes/class-dashboard.php:308
+msgid "WARNING: This will permanently delete all selected articles and their FreshRank data. This action cannot be undone!\\n\\nAre you sure?"
+msgstr ""
+
+#: includes/class-dashboard.php:309
+#: includes/class-dashboard.php:1658
+#: includes/class-dashboard.php:1821
+#: includes/class-dashboard.php:2070
+msgid "Analyzing..."
+msgstr ""
+
+#: includes/class-dashboard.php:310
+msgid "Creating draft..."
+msgstr ""
+
+#: includes/class-dashboard.php:311
+msgid "Prioritizing articles..."
+msgstr ""
+
+#: includes/class-dashboard.php:312
+msgid "Deleting..."
+msgstr ""
+
+#: includes/class-dashboard.php:313
+#: includes/class-dashboard.php:1846
+#: includes/utilities/class-html-builder.php:414
+msgid "Error"
+msgstr ""
+
+#: includes/class-dashboard.php:314
+msgid "Success"
+msgstr ""
+
+#: includes/class-dashboard.php:315
+#: includes/class-dashboard.php:1191
+msgid "Processing..."
+msgstr ""
+
+#: includes/class-dashboard.php:316
+msgid "Loading models..."
+msgstr ""
+
+#: includes/class-dashboard.php:317
+msgid "No models available. Try refreshing the list."
+msgstr ""
+
+#: includes/class-dashboard.php:318
+msgid "No models match your search."
+msgstr ""
+
+#: includes/class-dashboard.php:319
+msgid "Failed to load OpenRouter models."
+msgstr ""
+
+#: includes/class-dashboard.php:320
+msgid "Refreshing..."
+msgstr ""
+
+#: includes/class-dashboard.php:321
+msgid "Models list refreshed"
+msgstr ""
+
+#: includes/class-dashboard.php:322
+msgid "Failed to refresh models. Please try again."
+msgstr ""
+
+#. translators: %s is the rank number
+#: includes/class-dashboard.php:324
+msgid "Rank #%s"
+msgstr ""
+
+#. translators: %1$s is the cost amount, %2$s is the suffix
+#: includes/class-dashboard.php:326
+msgid "Approx. %1$s / 1K %2$s"
+msgstr ""
+
+#: includes/class-dashboard.php:327
+msgid " • "
+msgstr ""
+
+#: includes/class-dashboard.php:328
+msgid "prompt tokens"
+msgstr ""
+
+#: includes/class-dashboard.php:329
+msgid "completion tokens"
+msgstr ""
+
+#: includes/class-dashboard.php:330
+msgid "Draft created. Refresh the page to view details."
+msgstr ""
+
+#: includes/class-dashboard.php:451
+msgid "FreshRank AI Dashboard"
+msgstr ""
+
+#: includes/class-dashboard.php:460
+msgid "🎉 You're using FreshRank AI Lite (Free)"
+msgstr ""
+
+#: includes/class-dashboard.php:463
+#: includes/class-settings.php:144
+msgid "Get comprehensive content analysis with AI-powered insights. Want automated content generation?"
+msgstr ""
+
+#: includes/class-dashboard.php:466
+#: includes/class-settings.php:145
+msgid "Upgrade to Pro for:"
+msgstr ""
+
+#: includes/class-dashboard.php:467
+#: includes/class-settings.php:147
+msgid "AI-generated content updates"
+msgstr ""
+
+#: includes/class-dashboard.php:468
+msgid "Access to 450+ AI models"
+msgstr ""
+
+#: includes/class-dashboard.php:469
+msgid "Bulk operations"
+msgstr ""
+
+#: includes/class-dashboard.php:470
+#: includes/class-settings.php:150
+msgid "Draft approval workflow"
+msgstr ""
+
+#: includes/class-dashboard.php:475
+#: includes/class-settings.php:153
+msgid "Upgrade to Pro →"
+msgstr ""
+
+#: includes/class-dashboard.php:501
+#: includes/utilities/class-html-builder.php:412
+msgid "Processing"
+msgstr ""
+
+#: includes/class-dashboard.php:506
+msgid "Initializing..."
+msgstr ""
+
+#: includes/class-dashboard.php:508
+msgid "Cancel Prioritization"
+msgstr ""
+
+#: includes/class-dashboard.php:523
+msgid "Priority Score Breakdown"
+msgstr ""
+
+#: includes/class-dashboard.php:534
+msgid "Score Components"
+msgstr ""
+
+#: includes/class-dashboard.php:538
+msgid "Content Age Score"
+msgstr ""
+
+#: includes/class-dashboard.php:551
+msgid "Traffic Decline Score"
+msgstr ""
+
+#: includes/class-dashboard.php:564
+msgid "Traffic Potential Score"
+msgstr ""
+
+#: includes/class-dashboard.php:577
+msgid "Total Priority Score"
+msgstr ""
+
+#: includes/class-dashboard.php:591
+msgid "GSC Data"
+msgstr ""
+
+#: includes/class-dashboard.php:594
+msgid "Current Period (Last 90 days)"
+msgstr ""
+
+#: includes/class-dashboard.php:597
+#: includes/class-dashboard.php:619
+msgid "Clicks:"
+msgstr ""
+
+#: includes/class-dashboard.php:601
+#: includes/class-dashboard.php:623
+msgid "Impressions:"
+msgstr ""
+
+#: includes/class-dashboard.php:605
+#: includes/class-dashboard.php:627
+msgid "CTR:"
+msgstr ""
+
+#: includes/class-dashboard.php:609
+#: includes/class-dashboard.php:631
+msgid "Position:"
+msgstr ""
+
+#: includes/class-dashboard.php:616
+msgid "Previous Period (91-180 days ago)"
+msgstr ""
+
+#: includes/class-dashboard.php:639
+msgid "Last GSC Update:"
+msgstr ""
+
+#: includes/class-dashboard.php:663
+msgid "Draft post not found."
+msgstr ""
+
+#: includes/class-dashboard.php:684
+#: includes/class-dashboard.php:833
+#: includes/class-dashboard.php:957
+#: includes/class-dashboard.php:1910
+msgid "Draft Details"
+msgstr ""
+
+#: includes/class-dashboard.php:688
+#: includes/class-dashboard.php:837
+#: includes/class-dashboard.php:1913
+msgid "Changes Summary"
+msgstr ""
+
+#: includes/class-dashboard.php:692
+#: includes/class-dashboard.php:841
+#: includes/class-dashboard.php:1917
+msgid "Severity Filters Applied:"
+msgstr ""
+
+#. translators: %d is the number of issues addressed
+#: includes/class-dashboard.php:708
+#: includes/class-dashboard.php:857
+#: includes/class-dashboard.php:1933
+msgid "%d Issue Addressed:"
+msgid_plural "%d Issues Addressed:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-dashboard.php:725
+#: includes/class-dashboard.php:874
+#: includes/class-dashboard.php:1950
+msgid "SEO Improvements:"
+msgstr ""
+
+#: includes/class-dashboard.php:739
+#: includes/class-dashboard.php:888
+#: includes/class-dashboard.php:1964
+msgid "Content Updates:"
+msgstr ""
+
+#: includes/class-dashboard.php:750
+#: includes/class-dashboard.php:899
+#: includes/class-dashboard.php:967
+#: includes/class-dashboard.php:1982
+msgid "Created:"
+msgstr ""
+
+#: includes/class-dashboard.php:758
+#: includes/class-dashboard.php:906
+#: includes/class-dashboard.php:980
+#: includes/class-dashboard.php:2608
+msgid "Usage Details"
+msgstr ""
+
+#: includes/class-dashboard.php:761
+#: includes/class-dashboard.php:909
+#: includes/class-dashboard.php:983
+#: includes/class-dashboard.php:2611
+msgid "Tokens:"
+msgstr ""
+
+#: includes/class-dashboard.php:765
+#: includes/class-dashboard.php:913
+#: includes/class-dashboard.php:987
+#: includes/class-dashboard.php:2615
+msgid "Model:"
+msgstr ""
+
+#: includes/class-dashboard.php:771
+#: includes/class-dashboard.php:993
+#: includes/class-dashboard.php:2625
+msgid "Est. Cost:"
+msgstr ""
+
+#: includes/class-dashboard.php:780
+#: includes/class-dashboard.php:922
+#: includes/class-dashboard.php:1003
+#: includes/class-dashboard.php:1362
+#: includes/class-dashboard.php:1684
+#: includes/class-dashboard.php:1986
+msgid "Actions"
+msgstr ""
+
+#: includes/class-dashboard.php:785
+#: includes/class-dashboard.php:1010
+#: includes/class-dashboard.php:1996
+msgid "View Changes"
+msgstr ""
+
+#: includes/class-dashboard.php:791
+#: includes/class-dashboard.php:933
+#: includes/class-dashboard.php:2002
+msgid "Preview Draft"
+msgstr ""
+
+#: includes/class-dashboard.php:796
+#: includes/class-dashboard.php:937
+#: includes/class-dashboard.php:2006
+msgid "Edit Draft"
+msgstr ""
+
+#: includes/class-dashboard.php:824
+#: includes/class-dashboard.php:1876
+msgid "Unknown"
+msgstr ""
+
+#: includes/class-dashboard.php:944
+msgid "View Revision"
+msgstr ""
+
+#: includes/class-dashboard.php:961
+#: includes/class-dashboard.php:2599
+msgid "Summary"
+msgstr ""
+
+#: includes/class-dashboard.php:964
+msgid "changes made"
+msgstr ""
+
+#: includes/class-dashboard.php:971
+msgid "Update Summary:"
+msgstr ""
+
+#: includes/class-dashboard.php:1015
+#: includes/class-dashboard.php:1900
+msgid "Approve Draft"
+msgstr ""
+
+#: includes/class-dashboard.php:1019
+#: includes/class-dashboard.php:1906
+msgid "Reject Draft"
+msgstr ""
+
+#: includes/class-dashboard.php:1126
+msgid "Published Articles"
+msgstr ""
+
+#: includes/class-dashboard.php:1131
+msgid "OpenAI API key is not configured. Please configure it in settings to enable content analysis."
+msgstr ""
+
+#: includes/class-dashboard.php:1133
+msgid "Go to Settings"
+msgstr ""
+
+#: includes/class-dashboard.php:1151
+msgid "Prioritization is enabled but Google Search Console is not authenticated. Please configure GSC in settings or disable prioritization."
+msgstr ""
+
+#: includes/class-dashboard.php:1177
+msgid "Background Processing:"
+msgstr ""
+
+#. translators: %d is the number of articles
+#: includes/class-dashboard.php:1181
+msgid "%d article is currently having its draft created in the background."
+msgid_plural "%d articles are currently having their drafts created in the background."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-dashboard.php:1185
+msgid "This may take 1-3 minutes per article. Refresh this page to check progress."
+msgstr ""
+
+#: includes/class-dashboard.php:1204
+msgid "Workflow: Analyze → Create Drafts → Approve"
+msgstr ""
+
+#: includes/class-dashboard.php:1211
+#: includes/class-dashboard.php:1359
+#: includes/class-dashboard.php:1602
+#: includes/settings/class-settings-advanced.php:175
+msgid "Analysis"
+msgstr ""
+
+#: includes/class-dashboard.php:1215
+msgid "Fetch GSC data and prioritize articles by traffic opportunity"
+msgstr ""
+
+#: includes/class-dashboard.php:1217
+msgid "Prioritize"
+msgstr ""
+
+#: includes/class-dashboard.php:1220
+msgid "Analyze all articles for SEO issues and optimization opportunities"
+msgstr ""
+
+#: includes/class-dashboard.php:1222
+msgid "Analyze Current Page"
+msgstr ""
+
+#: includes/class-dashboard.php:1224
+msgid "Analyze only the selected articles"
+msgstr ""
+
+#: includes/class-dashboard.php:1226
+msgid "Analyze Selected"
+msgstr ""
+
+#: includes/class-dashboard.php:1236
+msgid "Draft Creation"
+msgstr ""
+
+#: includes/class-dashboard.php:1239
+msgid "Create draft updates for all analyzed articles"
+msgstr ""
+
+#: includes/class-dashboard.php:1241
+msgid "Create for This Page"
+msgstr ""
+
+#: includes/class-dashboard.php:1243
+msgid "Create drafts for selected articles only"
+msgstr ""
+
+#: includes/class-dashboard.php:1245
+msgid "Create Selected"
+msgstr ""
+
+#: includes/class-dashboard.php:1250
+msgid "No actionable issues currently match the selected filters. Draft creation will skip articles without actionable findings."
+msgstr ""
+
+#: includes/class-dashboard.php:1259
+msgid "You can select articles using checkboxes and analyze them individually, or analyze all articles at once."
+msgstr ""
+
+#: includes/class-dashboard.php:1269
+msgid "No Published Articles Found"
+msgstr ""
+
+#: includes/class-dashboard.php:1270
+msgid "FreshRank AI analyzes your published articles to help improve their SEO and content quality. Create your first article to get started."
+msgstr ""
+
+#: includes/class-dashboard.php:1273
+msgid "Create Your First Article"
+msgstr ""
+
+#: includes/class-dashboard.php:1286
+msgid "No Articles Match Your Filters"
+msgstr ""
+
+#. translators: %d is the total number of published articles
+#: includes/class-dashboard.php:1291
+msgid "No articles found matching the current filters. You have %d published articles in total."
+msgstr ""
+
+#: includes/class-dashboard.php:1299
+msgid "Clear All Filters"
+msgstr ""
+
+#: includes/class-dashboard.php:1352
+#: includes/class-dashboard.php:1504
+#: includes/class-dashboard.php:3051
+#: includes/class-dashboard.php:3120
+msgid "Article"
+msgstr ""
+
+#: includes/class-dashboard.php:1355
+#: includes/class-dashboard.php:1556
+msgid "Priority"
+msgstr ""
+
+#: includes/class-dashboard.php:1361
+#: includes/class-dashboard.php:1680
+#: includes/class-dashboard.php:2858
+msgid "Status"
+msgstr ""
+
+#. translators: %1$d is the start number, %2$d is the end number, %3$d is the total number of articles
+#: includes/class-dashboard.php:1380
+msgid "Showing %1$d-%2$d of %3$d articles"
+msgstr ""
+
+#: includes/class-dashboard.php:1396
+#: includes/class-dashboard.php:1398
+msgid "Previous"
+msgstr ""
+
+#: includes/class-dashboard.php:1425
+#: includes/class-dashboard.php:1427
+msgid "Next"
+msgstr ""
+
+#: includes/class-dashboard.php:1432
+msgid "Per page:"
+msgstr ""
+
+#: includes/class-dashboard.php:1516
+msgid "Published:"
+msgstr ""
+
+#: includes/class-dashboard.php:1522
+msgid "Modified:"
+msgstr ""
+
+#: includes/class-dashboard.php:1529
+msgid "Edit"
+msgstr ""
+
+#: includes/class-dashboard.php:1532
+msgid "View"
+msgstr ""
+
+#: includes/class-dashboard.php:1538
+msgid "Are you sure you want to clear this draft? This will delete the draft post and all related data."
+msgstr ""
+
+#: includes/class-dashboard.php:1539
+msgid "Clear Draft"
+msgstr ""
+
+#: includes/class-dashboard.php:1547
+msgid "Clear Analysis"
+msgstr ""
+
+#. translators: %s is the article title
+#: includes/class-dashboard.php:1588
+msgid "View priority score details for %s"
+msgstr ""
+
+#: includes/class-dashboard.php:1594
+#: includes/class-dashboard.php:1644
+msgid "View Details"
+msgstr ""
+
+#. translators: %s is the article title
+#: includes/class-dashboard.php:1638
+msgid "View analysis details for %s"
+msgstr ""
+
+#: includes/class-dashboard.php:1663
+msgid "Interrupted"
+msgstr ""
+
+#: includes/class-dashboard.php:1669
+msgid "Failed"
+msgstr ""
+
+#: includes/class-dashboard.php:1674
+msgid "Not analyzed"
+msgstr ""
+
+#. translators: %s is the article title
+#: includes/class-dashboard.php:1701
+msgid "Priority score details for %s"
+msgstr ""
+
+#. translators: %s is the article title
+#: includes/class-dashboard.php:1727
+msgid "Analysis details for %s"
+msgstr ""
+
+#. translators: %s is the article title
+#: includes/class-dashboard.php:1753
+msgid "Draft details for %s"
+msgstr ""
+
+#: includes/class-dashboard.php:1799
+msgid "View Draft Details"
+msgstr ""
+
+#: includes/class-dashboard.php:1810
+#: includes/class-dashboard.php:1852
+msgid "Not analyzed yet - click Analyze to start"
+msgstr ""
+
+#: includes/class-dashboard.php:1810
+#: includes/class-dashboard.php:1852
+#: includes/utilities/class-html-builder.php:411
+msgid "Pending"
+msgstr ""
+
+#: includes/class-dashboard.php:1821
+msgid "Analysis in progress - this may take 30-60 seconds"
+msgstr ""
+
+#: includes/class-dashboard.php:1827
+msgid "Creating draft in background - refresh page to check progress"
+msgstr ""
+
+#: includes/class-dashboard.php:1827
+#: includes/class-dashboard.php:2016
+msgid "Creating Draft..."
+msgstr ""
+
+#: includes/class-dashboard.php:1833
+msgid "Analysis complete - ready to create draft"
+msgstr ""
+
+#: includes/class-dashboard.php:1833
+msgid "Ready"
+msgstr ""
+
+#: includes/class-dashboard.php:1837
+msgid "Unknown error"
+msgstr ""
+
+#. translators: %s is the error message
+#: includes/class-dashboard.php:1843
+msgid "Error: %s - Click Analyze to retry"
+msgstr ""
+
+#: includes/class-dashboard.php:1976
+msgid "No detailed change information available. Review the draft to see changes."
+msgstr ""
+
+#: includes/class-dashboard.php:2022
+#: includes/class-dashboard.php:2064
+#: includes/dashboard/class-dashboard-statistics.php:166
+msgid "Analyze"
+msgstr ""
+
+#: includes/class-dashboard.php:2046
+msgid "Analysis timed out or was interrupted"
+msgstr ""
+
+#: includes/class-dashboard.php:2049
+msgid "Retry Analysis"
+msgstr ""
+
+#: includes/class-dashboard.php:2095
+msgid "Create Draft"
+msgstr ""
+
+#: includes/class-dashboard.php:2099
+msgid "No actionable issues match the current filters. Draft creation will fail until you adjust your AI settings or re-run analysis."
+msgstr ""
+
+#: includes/class-dashboard.php:2103
+msgid "No issues found"
+msgstr ""
+
+#: includes/class-dashboard.php:2107
+msgid "Re-analyze"
+msgstr ""
+
+#: includes/class-dashboard.php:2113
+msgid "Retry"
+msgstr ""
+
+#: includes/class-dashboard.php:2117
+msgid "Error occurred"
+msgstr ""
+
+#: includes/class-dashboard.php:2195
+msgid "Analysis Details"
+msgstr ""
+
+#: includes/class-dashboard.php:2201
+msgid "View:"
+msgstr ""
+
+#: includes/class-dashboard.php:2207
+msgid "Actionable issues only"
+msgstr ""
+
+#: includes/class-dashboard.php:2210
+msgid "All issues"
+msgstr ""
+
+#: includes/class-dashboard.php:2213
+msgid "Dismissed issues"
+msgstr ""
+
+#. translators: %d is the number of actionable issues
+#: includes/class-dashboard.php:2226
+msgid "Showing %d actionable issues"
+msgstr ""
+
+#: includes/class-dashboard.php:2233
+msgid "No actionable issues"
+msgstr ""
+
+#. translators: %d is the number of filtered out issues
+#: includes/class-dashboard.php:2242
+msgid "%d filtered out"
+msgstr ""
+
+#: includes/class-dashboard.php:2266
+msgid "High"
+msgstr ""
+
+#: includes/class-dashboard.php:2269
+msgid "Medium"
+msgstr ""
+
+#: includes/class-dashboard.php:2272
+msgid "Low"
+msgstr ""
+
+#: includes/class-dashboard.php:2278
+msgid "Factual"
+msgstr ""
+
+#: includes/class-dashboard.php:2281
+msgid "UX"
+msgstr ""
+
+#: includes/class-dashboard.php:2284
+msgid "Search"
+msgstr ""
+
+#: includes/class-dashboard.php:2287
+msgid "AI"
+msgstr ""
+
+#. translators: %1$s is the list of severity issues, %2$s is the list of categories
+#: includes/class-dashboard.php:2292
+msgid "Showing %1$s severity issues in %2$s categories."
+msgstr ""
+
+#: includes/class-dashboard.php:2298
+msgid "Change settings"
+msgstr ""
+
+#: includes/class-dashboard.php:2312
+#: includes/settings/class-settings-filters.php:109
+msgid "Factual Updates"
+msgstr ""
+
+#: includes/class-dashboard.php:2338
+#: includes/class-dashboard.php:2392
+#: includes/class-dashboard.php:2462
+#: includes/class-dashboard.php:2513
+#: includes/class-dashboard.php:2571
+msgid "Restore this item"
+msgstr ""
+
+#: includes/class-dashboard.php:2343
+#: includes/class-dashboard.php:2397
+#: includes/class-dashboard.php:2467
+#: includes/class-dashboard.php:2518
+#: includes/class-dashboard.php:2576
+msgid "Dismiss this item"
+msgstr ""
+
+#: includes/class-dashboard.php:2351
+msgid "Current:"
+msgstr ""
+
+#: includes/class-dashboard.php:2356
+msgid "Update to:"
+msgstr ""
+
+#: includes/class-dashboard.php:2367
+#: includes/settings/class-settings-filters.php:118
+msgid "User Experience"
+msgstr ""
+
+#: includes/class-dashboard.php:2405
+#: includes/class-dashboard.php:2478
+#: includes/class-dashboard.php:2529
+msgid "Impact:"
+msgstr ""
+
+#: includes/class-dashboard.php:2410
+#: includes/class-dashboard.php:2474
+#: includes/class-dashboard.php:2525
+msgid "Fix:"
+msgstr ""
+
+#: includes/class-dashboard.php:2421
+msgid "Dwell Time:"
+msgstr ""
+
+#: includes/class-dashboard.php:2424
+msgid "Bounce Risk:"
+msgstr ""
+
+#: includes/class-dashboard.php:2427
+msgid "Info Access:"
+msgstr ""
+
+#: includes/class-dashboard.php:2430
+msgid "Above Fold:"
+msgstr ""
+
+#: includes/class-dashboard.php:2439
+#: includes/settings/class-settings-filters.php:127
+msgid "Search Optimization"
+msgstr ""
+
+#: includes/class-dashboard.php:2489
+#: includes/settings/class-settings-filters.php:136
+msgid "AI Visibility"
+msgstr ""
+
+#: includes/class-dashboard.php:2538
+msgid "Visibility Score:"
+msgstr ""
+
+#: includes/class-dashboard.php:2546
+#: includes/settings/class-settings-filters.php:145
+msgid "Growth Opportunities"
+msgstr ""
+
+#: includes/class-dashboard.php:2583
+msgid "Implementation:"
+msgstr ""
+
+#: includes/class-dashboard.php:2587
+msgid "Expected Benefit:"
+msgstr ""
+
+#: includes/class-dashboard.php:2618
+msgid "Time:"
+msgstr ""
+
+#: includes/class-dashboard.php:2829
+msgid "This page shows recent plugin activity and errors. Enable Debug Mode in Settings to see more detailed logs."
+msgstr ""
+
+#: includes/class-dashboard.php:2850
+msgid "Recent Analysis Operations"
+msgstr ""
+
+#: includes/class-dashboard.php:2851
+msgid "Showing last 100 analysis operations from FreshRank AI plugin"
+msgstr ""
+
+#: includes/class-dashboard.php:2856
+msgid "Time"
+msgstr ""
+
+#: includes/class-dashboard.php:2857
+msgid "Post"
+msgstr ""
+
+#: includes/class-dashboard.php:2859
+msgid "Issues"
+msgstr ""
+
+#: includes/class-dashboard.php:2860
+msgid "Tokens"
+msgstr ""
+
+#: includes/class-dashboard.php:2861
+msgid "Model"
+msgstr ""
+
+#: includes/class-dashboard.php:2862
+msgid "Error Message"
+msgstr ""
+
+#: includes/class-dashboard.php:2906
+msgid "No analysis operations found."
+msgstr ""
+
+#: includes/class-dashboard.php:2912
+#: includes/class-dashboard.php:2956
+msgid "FreshRank Plugin Debug Log"
+msgstr ""
+
+#: includes/class-dashboard.php:2913
+msgid "Filtered to show only FreshRank AI plugin entries (not WordPress core)"
+msgstr ""
+
+#: includes/class-dashboard.php:2935
+msgid "plugin-related log entries found (showing last 200)"
+msgstr ""
+
+#: includes/class-dashboard.php:2953
+msgid "No FreshRank AI plugin entries found in debug log."
+msgstr ""
+
+#: includes/class-dashboard.php:2957
+msgid "Debug log not found or not readable. Enable WP_DEBUG_LOG in wp-config.php to create it."
+msgstr ""
+
+#: includes/class-dashboard.php:2962
+msgid "How to Enable Full Debug Logging"
+msgstr ""
+
+#: includes/class-dashboard.php:2963
+msgid "Add these lines to your wp-config.php file:"
+msgstr ""
+
+#: includes/class-dashboard.php:2967
+msgid "Then check FreshRank AI → Settings → Debug Mode checkbox to enable plugin-specific logging."
+msgstr ""
+
+#: includes/class-dashboard.php:2980
+msgid "Analytics & Traffic Potential"
+msgstr ""
+
+#: includes/class-dashboard.php:2990
+msgid "Google Search Console Not Connected"
+msgstr ""
+
+#: includes/class-dashboard.php:2991
+msgid "Analytics and traffic potential data require Google Search Console integration. Please connect your site to view detailed performance metrics."
+msgstr ""
+
+#: includes/class-dashboard.php:2994
+msgid "Connect Google Search Console"
+msgstr ""
+
+#: includes/class-dashboard.php:3012
+msgid "Estimated Traffic Potential"
+msgstr ""
+
+#. translators: %d is the number of articles analyzed
+#: includes/class-dashboard.php:3021
+msgid "additional monthly clicks possible by updating your top %d articles"
+msgstr ""
+
+#: includes/class-dashboard.php:3030
+msgid "Articles Tracked"
+msgstr ""
+
+#: includes/class-dashboard.php:3036
+msgid "updated articles with analytics data"
+msgstr ""
+
+#: includes/class-dashboard.php:3043
+msgid "Traffic Potential Breakdown (Top 20 Articles)"
+msgstr ""
+
+#: includes/class-dashboard.php:3045
+msgid "Articles sorted by current traffic (clicks). Shows how many additional clicks you could gain by improving CTR to industry benchmarks."
+msgstr ""
+
+#: includes/class-dashboard.php:3052
+msgid "Current Position"
+msgstr ""
+
+#: includes/class-dashboard.php:3053
+msgid "Current CTR"
+msgstr ""
+
+#: includes/class-dashboard.php:3054
+msgid "Target CTR"
+msgstr ""
+
+#: includes/class-dashboard.php:3055
+msgid "Current Clicks"
+msgstr ""
+
+#: includes/class-dashboard.php:3056
+msgid "Potential Clicks"
+msgstr ""
+
+#: includes/class-dashboard.php:3057
+msgid "Priority Score"
+msgstr ""
+
+#: includes/class-dashboard.php:3101
+msgid "No articles with GSC data yet. Run prioritization first."
+msgstr ""
+
+#: includes/class-dashboard.php:3112
+msgid "Updated Articles Performance"
+msgstr ""
+
+#: includes/class-dashboard.php:3114
+msgid "Track the impact of your content updates. Data is collected daily for 30 days after update."
+msgstr ""
+
+#: includes/class-dashboard.php:3121
+msgid "Updated"
+msgstr ""
+
+#: includes/class-dashboard.php:3122
+msgid "Days Tracked"
+msgstr ""
+
+#: includes/class-dashboard.php:3123
+msgid "Clicks Change"
+msgstr ""
+
+#: includes/class-dashboard.php:3124
+msgid "Position Change"
+msgstr ""
+
+#: includes/class-dashboard.php:3125
+msgid "CTR Change"
+msgstr ""
+
+#: includes/class-dashboard.php:3126
+msgid "Impressions Change"
+msgstr ""
+
+#: includes/class-dashboard.php:3199
+msgid "No Updated Articles Yet"
+msgstr ""
+
+#: includes/class-dashboard.php:3201
+msgid "Once you approve drafts and publish updates, analytics will be collected daily to track performance changes."
+msgstr ""
+
+#: includes/class-dashboard.php:3204
+msgid "Go to Dashboard"
+msgstr ""
+
+#: includes/class-dashboard.php:3211
+msgid "How Traffic Potential is Calculated"
+msgstr ""
+
+#: includes/class-dashboard.php:3212
+msgid "We use industry-standard CTR benchmarks based on your article's current position in Google search results:"
+msgstr ""
+
+#: includes/class-dashboard.php:3214
+msgid "Position 1: ~28.9% CTR"
+msgstr ""
+
+#: includes/class-dashboard.php:3215
+msgid "Position 2: ~12.5% CTR"
+msgstr ""
+
+#: includes/class-dashboard.php:3216
+msgid "Position 3: ~7.4% CTR"
+msgstr ""
+
+#: includes/class-dashboard.php:3217
+msgid "Position 4-10: Decreasing from 4.9% to 0.9%"
+msgstr ""
+
+#: includes/class-dashboard.php:3219
+msgid "Potential clicks = (Current Impressions × Target CTR) - Current Clicks"
+msgstr ""
+
+#: includes/class-dashboard.php:3221
+msgid "Source: Advanced Web Ranking 2024 CTR Data"
+msgstr ""
+
+#: includes/class-database.php:726
+#: includes/dashboard/class-dashboard-statistics.php:345
+msgid "No impression data available"
+msgstr ""
+
+#. translators: %1$s is the number of impressions, %2$s is the percentage of CTR, %3$s is the expected percentage of CTR, %4$s is the percentage of improvement
+#: includes/class-database.php:748
+#: includes/dashboard/class-dashboard-statistics.php:367
+msgid "High potential: %1$s impressions with %2$s%% CTR (expected %3$s%%). Could improve by %4$s%%."
+msgstr ""
+
+#. translators: %1$s is the number of impressions, %2$s is the percentage of CTR
+#: includes/class-database.php:757
+#: includes/dashboard/class-dashboard-statistics.php:376
+msgid "Good performance: %1$s impressions with %2$s%% CTR meeting expectations"
+msgstr ""
+
+#: includes/class-database.php:769
+#: includes/dashboard/class-dashboard-statistics.php:317
+msgid "No previous traffic data available"
+msgstr ""
+
+#. translators: %d is the percentage of traffic decline
+#: includes/class-database.php:777
+#: includes/dashboard/class-dashboard-statistics.php:325
+msgid "Major traffic decline: %d%% drop in clicks"
+msgstr ""
+
+#. translators: %d is the percentage of traffic decline
+#: includes/class-database.php:780
+#: includes/dashboard/class-dashboard-statistics.php:328
+msgid "Significant traffic decline: %d%% drop in clicks"
+msgstr ""
+
+#. translators: %d is the percentage of traffic decline
+#: includes/class-database.php:783
+#: includes/dashboard/class-dashboard-statistics.php:331
+msgid "Moderate traffic decline: %d%% drop in clicks"
+msgstr ""
+
+#. translators: %d is the percentage of traffic decline
+#: includes/class-database.php:786
+#: includes/dashboard/class-dashboard-statistics.php:334
+msgid "Minor traffic decline: %d%% drop in clicks"
+msgstr ""
+
+#: includes/class-database.php:788
+#: includes/dashboard/class-dashboard-statistics.php:336
+msgid "Traffic maintained or increased"
+msgstr ""
+
+#: includes/class-encryption.php:40
+msgid "OpenSSL is required for secure API key storage. Please enable the OpenSSL extension on your server."
+msgstr ""
+
+#: includes/class-encryption.php:56
+msgid "Failed to encrypt data. Please check server configuration."
+msgstr ""
+
+#: includes/class-encryption.php:95
+msgid "OpenSSL is required to decrypt stored API keys. Please enable the OpenSSL extension on your server."
+msgstr ""
+
+#: includes/class-gsc-api.php:159
+msgid "Permission denied. Administrator access required."
+msgstr ""
+
+#: includes/class-gsc-batch-processor.php:44
+msgid "Prioritization already in progress. Please wait for it to complete."
+msgstr ""
+
+#: includes/class-gsc-batch-processor.php:50
+msgid "Google Search Console is not authenticated."
+msgstr ""
+
+#: includes/class-gsc-batch-processor.php:57
+msgid "No posts found to prioritize."
+msgstr ""
+
+#: includes/class-gsc-batch-processor.php:92
+msgid "ActionScheduler is not available. Cannot start batched prioritization."
+msgstr ""
+
+#: includes/class-settings.php:143
+msgid "You're using FreshRank AI Lite (Free)"
+msgstr ""
+
+#: includes/class-settings.php:148
+msgid "Access to 450+ AI models (Gemini, Claude, Llama)"
+msgstr ""
+
+#: includes/class-settings.php:149
+msgid "Bulk content operations"
+msgstr ""
+
+#: includes/class-settings.php:151
+msgid "Priority support"
+msgstr ""
+
+#. translators: %s is the feature name
+#: includes/class-settings.php:172
+msgid "%s is a Pro Feature"
+msgstr ""
+
+#. translators: %s is the feature name
+#: includes/class-settings.php:184
+msgid "%s is only available in the Pro version. Upgrade to unlock this feature and more."
+msgstr ""
+
+#: includes/class-settings.php:192
+msgid "Pro Features Include:"
+msgstr ""
+
+#: includes/class-settings.php:194
+msgid "Google Search Console Integration"
+msgstr ""
+
+#: includes/class-settings.php:195
+msgid "OpenRouter - Access 450+ AI models"
+msgstr ""
+
+#: includes/class-settings.php:196
+#: includes/settings/class-settings-advanced.php:72
+msgid "Custom AI instructions"
+msgstr ""
+
+#: includes/class-settings.php:197
+msgid "Full category & severity control"
+msgstr ""
+
+#: includes/class-settings.php:198
+msgid "White-label branding options"
+msgstr ""
+
+#: includes/class-settings.php:203
+#: includes/settings/class-settings-advanced.php:80
+#: includes/settings/class-settings-api.php:113
+#: includes/settings/class-settings-api.php:187
+#: includes/settings/class-settings-api.php:218
+#: includes/settings/class-settings-api.php:248
+#: includes/settings/class-settings-api.php:472
+#: includes/settings/class-settings-filters.php:63
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: includes/class-settings.php:223
+msgid "Google Search Console"
+msgstr ""
+
+#: includes/class-settings.php:228
+msgid "Debug"
+msgstr ""
+
+#: includes/class-settings.php:233
+msgid "White-Label"
+msgstr ""
+
+#: includes/class-settings.php:424
+msgid "AI Configuration"
+msgstr ""
+
+#: includes/class-settings.php:535
+msgid "Permission denied. Administrator access required for OAuth callback."
+msgstr ""
+
+#: includes/class-settings.php:570
+msgid "Permission denied. Administrator access required to disconnect GSC."
+msgstr ""
+
+#: includes/class-settings.php:612
+msgid "Settings saved successfully."
+msgstr ""
+
+#: includes/class-settings.php:616
+msgid "Successfully connected to Google Search Console."
+msgstr ""
+
+#: includes/class-settings.php:620
+msgid "Disconnected from Google Search Console."
+msgstr ""
+
+#: includes/content-updater/class-prompt-builder.php:180
+msgid "No actionable analysis findings matched your current severity and category filters. Adjust your settings or re-run the analysis before creating a draft."
+msgstr ""
+
+#: includes/dashboard/class-dashboard-filters.php:54
+msgid "Filter"
+msgstr ""
+
+#: includes/dashboard/class-dashboard-filters.php:58
+msgid "Reset"
+msgstr ""
+
+#: includes/dashboard/class-dashboard-filters.php:85
+msgid "Author:"
+msgstr ""
+
+#: includes/dashboard/class-dashboard-filters.php:87
+msgid "All Authors"
+msgstr ""
+
+#: includes/dashboard/class-dashboard-filters.php:103
+msgid "Category:"
+msgstr ""
+
+#: includes/dashboard/class-dashboard-filters.php:109
+msgid "All Categories"
+msgstr ""
+
+#: includes/dashboard/class-dashboard-filters.php:126
+msgid "All Time"
+msgstr ""
+
+#: includes/dashboard/class-dashboard-filters.php:127
+#: includes/dashboard/class-dashboard-filters.php:191
+msgid "Today"
+msgstr ""
+
+#: includes/dashboard/class-dashboard-filters.php:128
+#: includes/dashboard/class-dashboard-filters.php:192
+msgid "Last 7 Days"
+msgstr ""
+
+#: includes/dashboard/class-dashboard-filters.php:129
+#: includes/dashboard/class-dashboard-filters.php:193
+msgid "Last 30 Days"
+msgstr ""
+
+#: includes/dashboard/class-dashboard-filters.php:130
+#: includes/dashboard/class-dashboard-filters.php:194
+msgid "Last 90 Days"
+msgstr ""
+
+#: includes/dashboard/class-dashboard-filters.php:131
+#: includes/dashboard/class-dashboard-filters.php:195
+msgid "Last Year"
+msgstr ""
+
+#: includes/dashboard/class-dashboard-filters.php:135
+msgid "Period:"
+msgstr ""
+
+#: includes/dashboard/class-dashboard-filters.php:153
+msgid "Search Articles:"
+msgstr ""
+
+#: includes/dashboard/class-dashboard-filters.php:159
+msgid "Search articles..."
+msgstr ""
+
+#. translators: %s is the author name
+#: includes/dashboard/class-dashboard-filters.php:177
+msgid "Author: %s"
+msgstr ""
+
+#. translators: %s is the category name
+#: includes/dashboard/class-dashboard-filters.php:185
+msgid "Category: %s"
+msgstr ""
+
+#. translators: %s is the period label
+#: includes/dashboard/class-dashboard-filters.php:198
+msgid "Period: %s"
+msgstr ""
+
+#. translators: %s is the search query
+#: includes/dashboard/class-dashboard-filters.php:203
+msgid "Search: \"%s\""
+msgstr ""
+
+#: includes/dashboard/class-dashboard-filters.php:208
+msgid "Filtering by:"
+msgstr ""
+
+#: includes/dashboard/class-dashboard-filters.php:211
+msgid "Clear all"
+msgstr ""
+
+#: includes/dashboard/class-dashboard-statistics.php:72
+msgid "Overview"
+msgstr ""
+
+#: includes/dashboard/class-dashboard-statistics.php:76
+#: includes/settings/class-settings-advanced.php:113
+msgid "Total Articles"
+msgstr ""
+
+#: includes/dashboard/class-dashboard-statistics.php:81
+msgid "Analyzed"
+msgstr ""
+
+#: includes/dashboard/class-dashboard-statistics.php:86
+#: includes/settings/class-settings-advanced.php:121
+msgid "Pending Drafts"
+msgstr ""
+
+#: includes/dashboard/class-dashboard-statistics.php:92
+msgid "Click to view detailed usage breakdown"
+msgstr ""
+
+#: includes/dashboard/class-dashboard-statistics.php:106
+msgid "Est. Usage"
+msgstr ""
+
+#: includes/dashboard/class-dashboard-statistics.php:108
+msgid "Total Tokens"
+msgstr ""
+
+#: includes/dashboard/class-dashboard-statistics.php:124
+msgid "GSC Data Updated:"
+msgstr ""
+
+#: includes/dashboard/class-dashboard-statistics.php:170
+msgid "analyzed"
+msgstr ""
+
+#: includes/dashboard/class-dashboard-statistics.php:172
+msgid "Click \"Analyze All\" to start"
+msgstr ""
+
+#: includes/dashboard/class-dashboard-statistics.php:189
+msgid "Create Drafts"
+msgstr ""
+
+#: includes/dashboard/class-dashboard-statistics.php:193
+msgid "ready for drafts"
+msgstr ""
+
+#: includes/dashboard/class-dashboard-statistics.php:195
+msgid "Analyze articles first"
+msgstr ""
+
+#: includes/dashboard/class-dashboard-statistics.php:208
+msgid "Review & Approve"
+msgstr ""
+
+#: includes/dashboard/class-dashboard-statistics.php:212
+msgid "awaiting approval"
+msgstr ""
+
+#: includes/dashboard/class-dashboard-statistics.php:214
+msgid "No drafts pending"
+msgstr ""
+
+#: includes/dashboard/class-dashboard-statistics.php:388
+msgid "Very old content (1+ years) - highest priority for updates"
+msgstr ""
+
+#: includes/dashboard/class-dashboard-statistics.php:390
+msgid "Old content (6+ months) - high priority for updates"
+msgstr ""
+
+#: includes/dashboard/class-dashboard-statistics.php:392
+msgid "Moderately old content (3+ months) - medium priority"
+msgstr ""
+
+#: includes/dashboard/class-dashboard-statistics.php:394
+msgid "Recent content (1+ months) - lower priority"
+msgstr ""
+
+#: includes/dashboard/class-dashboard-statistics.php:396
+msgid "Very recent content (less than 1 month) - lowest priority"
+msgstr ""
+
+#: includes/dashboard/class-dashboard-statistics.php:405
+msgid "High priority - Immediate attention recommended"
+msgstr ""
+
+#: includes/dashboard/class-dashboard-statistics.php:407
+msgid "Medium priority - Should be updated soon"
+msgstr ""
+
+#: includes/dashboard/class-dashboard-statistics.php:409
+msgid "Low priority - Can be updated when convenient"
+msgstr ""
+
+#: includes/dashboard/class-dashboard-statistics.php:411
+msgid "Very low priority - No immediate action needed"
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:36
+msgid "System Status"
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:44
+msgid "Token Usage & Costs"
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:52
+msgid "Documentation"
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:64
+msgid "Unlock Pro Features"
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:67
+msgid "Pro includes:"
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:69
+msgid "OpenRouter - 450+ AI models"
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:70
+msgid "Custom model selection"
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:71
+msgid "GSC Integration"
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:73
+msgid "Category & severity filters"
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:74
+msgid "White-label options"
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:101
+msgid "Plugin Version"
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:105
+msgid "WordPress Version"
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:109
+msgid "PHP Version"
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:117
+msgid "Analyzed Articles"
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:138
+msgid "No token usage data available yet. Token usage will be tracked after running analysis or creating drafts."
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:152
+msgid "total tokens used"
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:161
+msgid "API requests"
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:162
+msgid "input"
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:163
+msgid "output"
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:169
+msgid "Breakdown by Operation"
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:176
+#: includes/settings/class-settings-advanced.php:190
+#: includes/settings/class-settings-advanced.php:233
+msgid "tokens"
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:179
+#: includes/settings/class-settings-advanced.php:193
+#: includes/settings/class-settings-advanced.php:236
+msgid "requests"
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:180
+#: includes/settings/class-settings-advanced.php:194
+msgid "in"
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:181
+#: includes/settings/class-settings-advanced.php:195
+msgid "out"
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:189
+msgid "Content Updates"
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:214
+msgid "Breakdown by Model"
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:245
+msgid "Cost estimates are approximate and based on current OpenAI pricing. Actual costs may vary based on your API plan."
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:323
+msgid "Debug Mode"
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:328
+msgid "Enable detailed logging for troubleshooting"
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:331
+msgid "When enabled, detailed logs will be written to the WordPress debug log. Only enable when troubleshooting issues."
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:425
+msgid "Enable White-Label Mode"
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:429
+msgid "Enable White-Label"
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:433
+msgid "Enable white-label branding"
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:435
+msgid "Turn this on to customize the plugin branding with your agency details."
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:442
+msgid "Branding Settings"
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:446
+msgid "Plugin Name"
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:449
+msgid "The name that will appear in the WordPress admin menu and settings pages."
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:454
+msgid "Custom Logo URL"
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:457
+msgid "URL to your agency logo (recommended: 200x50px PNG with transparent background)."
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:467
+msgid "Primary Color"
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:471
+msgid "Primary brand color used for buttons, links, and accents throughout the plugin."
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:478
+msgid "Support & Documentation"
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:482
+msgid "Support Email"
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:485
+msgid "Support email address shown in help text and error messages."
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:490
+msgid "Documentation URL"
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:493
+msgid "URL to your custom documentation or help center."
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:500
+msgid "Advanced Options"
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:504
+msgid "Hide FreshRank Branding"
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:508
+msgid "Remove \"Powered by FreshRank AI\" footer text"
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:510
+msgid "Completely remove FreshRank AI branding from the plugin interface."
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:518
+msgid "Preview"
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:519
+msgid "How your branding will appear:"
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:527
+msgid "AI-powered SEO & GEO content optimization"
+msgstr ""
+
+#: includes/settings/class-settings-advanced.php:531
+msgid "Powered by FreshRank AI"
+msgstr ""
+
+#: includes/settings/class-settings-api.php:56
+msgid "Select AI Provider"
+msgstr ""
+
+#: includes/settings/class-settings-api.php:92
+#: includes/settings/class-settings-api.php:120
+msgid "OpenAI"
+msgstr ""
+
+#: includes/settings/class-settings-api.php:93
+msgid "(GPT-5 - Free Version Locked)"
+msgstr ""
+
+#: includes/settings/class-settings-api.php:99
+#: includes/settings/class-settings-api.php:126
+msgid "OpenRouter"
+msgstr ""
+
+#: includes/settings/class-settings-api.php:100
+#: includes/settings/class-settings-api.php:208
+#: includes/settings/class-settings-api.php:239
+#: includes/settings/class-settings-api.php:466
+#: includes/settings/class-settings-filters.php:52
+msgid "PRO ONLY"
+msgstr ""
+
+#: includes/settings/class-settings-api.php:101
+#: includes/settings/class-settings-api.php:127
+msgid "(Access 450+ models - Gemini, Claude, Llama, etc.)"
+msgstr ""
+
+#: includes/settings/class-settings-api.php:106
+#: includes/settings/class-settings-api.php:132
+msgid "FreshRank Agent"
+msgstr ""
+
+#: includes/settings/class-settings-api.php:107
+#: includes/settings/class-settings-api.php:133
+msgid "COMING SOON"
+msgstr ""
+
+#: includes/settings/class-settings-api.php:108
+#: includes/settings/class-settings-api.php:134
+msgid "(Managed service - no API key needed)"
+msgstr ""
+
+#: includes/settings/class-settings-api.php:112
+msgid "Free version uses OpenAI with GPT-5 for analysis."
+msgstr ""
+
+#: includes/settings/class-settings-api.php:114
+msgid "to access 450+ models via OpenRouter (Gemini, Claude, Llama, etc.)."
+msgstr ""
+
+#: includes/settings/class-settings-api.php:121
+msgid "(Default - GPT-5, O3 models)"
+msgstr ""
+
+#: includes/settings/class-settings-api.php:139
+msgid "OpenAI is recommended for most users. Choose OpenRouter to access additional models like Gemini 2.5 Pro (best for creative writing) or Claude 4."
+msgstr ""
+
+#: includes/settings/class-settings-api.php:154
+msgid "OpenAI API Key"
+msgstr ""
+
+#: includes/settings/class-settings-api.php:157
+#: includes/settings/class-settings-api.php:316
+msgid "Key saved - enter new key to change"
+msgstr ""
+
+#: includes/settings/class-settings-api.php:157
+msgid "sk-..."
+msgstr ""
+
+#: includes/settings/class-settings-api.php:161
+#: includes/settings/class-settings-api.php:320
+msgid "API key is saved. Leave empty to keep current key, or enter a new key to replace it."
+msgstr ""
+
+#: includes/settings/class-settings-api.php:163
+#: includes/settings/class-settings-api.php:322
+msgid "Get your API key from"
+msgstr ""
+
+#: includes/settings/class-settings-api.php:171
+#: includes/settings/class-settings-api.php:329
+#: includes/settings/class-settings-gsc.php:101
+msgid "Test Connection"
+msgstr ""
+
+#: includes/settings/class-settings-api.php:178
+#: includes/settings/class-settings-api.php:341
+msgid "Analysis Model"
+msgstr ""
+
+#: includes/settings/class-settings-api.php:186
+msgid "Free version uses GPT-5 for high-quality analysis."
+msgstr ""
+
+#: includes/settings/class-settings-api.php:188
+msgid "to choose from all OpenAI models plus 450+ OpenRouter models (Gemini, Claude, Llama, etc.)."
+msgstr ""
+
+#: includes/settings/class-settings-api.php:196
+#: includes/settings/class-settings-api.php:362
+#: includes/settings/class-settings-api.php:404
+msgid "Recommended:"
+msgstr ""
+
+#: includes/settings/class-settings-api.php:197
+#: includes/settings/class-settings-api.php:363
+msgid "This model is used to analyze content and identify issues."
+msgstr ""
+
+#: includes/settings/class-settings-api.php:206
+#: includes/settings/class-settings-api.php:383
+msgid "Content Rewrite Model"
+msgstr ""
+
+#: includes/settings/class-settings-api.php:217
+msgid "Free version includes draft creation using GPT-5, limited to Factual Updates issues with HIGH severity only."
+msgstr ""
+
+#: includes/settings/class-settings-api.php:219
+msgid "to unlock all categories/severities and choose from 450+ models (Gemini, Claude, Llama, etc.)."
+msgstr ""
+
+#: includes/settings/class-settings-api.php:226
+#: includes/settings/class-settings-api.php:252
+msgid "Note:"
+msgstr ""
+
+#: includes/settings/class-settings-api.php:227
+#: includes/settings/class-settings-api.php:405
+msgid "This model is used to generate updated content drafts."
+msgstr ""
+
+#: includes/settings/class-settings-api.php:238
+#: includes/settings/class-settings-api.php:242
+msgid "Enable Web Search"
+msgstr ""
+
+#: includes/settings/class-settings-api.php:247
+msgid "Web search enables GPT-5 models to access real-time information during analysis and content generation."
+msgstr ""
+
+#: includes/settings/class-settings-api.php:249
+msgid "to enable this feature."
+msgstr ""
+
+#: includes/settings/class-settings-api.php:251
+msgid "Allow GPT-5 models to search the web for up-to-date information during analysis and content generation. This helps with current events, recent data, and fact-checking."
+msgstr ""
+
+#: includes/settings/class-settings-api.php:253
+msgid "Only works with GPT-5 models. Slightly slower and more expensive."
+msgstr ""
+
+#: includes/settings/class-settings-api.php:313
+msgid "OpenRouter API Key"
+msgstr ""
+
+#: includes/settings/class-settings-api.php:316
+msgid "sk-or-v1-..."
+msgstr ""
+
+#: includes/settings/class-settings-api.php:334
+msgid "Refresh Model List"
+msgstr ""
+
+#: includes/settings/class-settings-api.php:346
+#: includes/settings/class-settings-api.php:388
+msgid "Search models..."
+msgstr ""
+
+#: includes/settings/class-settings-api.php:352
+#: includes/settings/class-settings-api.php:353
+#: includes/settings/class-settings-api.php:394
+#: includes/settings/class-settings-api.php:395
+msgid "Select a model..."
+msgstr ""
+
+#: includes/settings/class-settings-api.php:364
+msgid "Type in the search box to filter models. Results are sorted by real usage popularity."
+msgstr ""
+
+#: includes/settings/class-settings-api.php:367
+msgid "Cost estimates shown below are approximate and based on current OpenRouter pricing. Actual charges may differ."
+msgstr ""
+
+#: includes/settings/class-settings-api.php:372
+msgid "Or enter custom model ID for Analysis"
+msgstr ""
+
+#: includes/settings/class-settings-api.php:377
+#: includes/settings/class-settings-api.php:419
+msgid "Enter a custom OpenRouter model ID if you want to use a model not listed above."
+msgstr ""
+
+#: includes/settings/class-settings-api.php:378
+#: includes/settings/class-settings-api.php:420
+msgid "Browse all models"
+msgstr ""
+
+#: includes/settings/class-settings-api.php:406
+msgid "Use the search field to quickly find specific models. List order reflects current OpenRouter usage."
+msgstr ""
+
+#: includes/settings/class-settings-api.php:409
+msgid "Draft generation costs depend on output length. Use these estimates as guidance only; OpenRouter invoices reflect actual usage."
+msgstr ""
+
+#: includes/settings/class-settings-api.php:414
+msgid "Or enter custom model ID for Writing"
+msgstr ""
+
+#: includes/settings/class-settings-api.php:426
+msgid "Model Recommendations"
+msgstr ""
+
+#: includes/settings/class-settings-api.php:427
+msgid "Best for Creative Writing:"
+msgstr ""
+
+#: includes/settings/class-settings-api.php:434
+msgid "Best for Analysis:"
+msgstr ""
+
+#: includes/settings/class-settings-api.php:441
+msgid "Budget-Friendly:"
+msgstr ""
+
+#: includes/settings/class-settings-api.php:449
+msgid "View full rankings and pricing"
+msgstr ""
+
+#: includes/settings/class-settings-api.php:464
+msgid "Enable Custom Instructions (Optional)"
+msgstr ""
+
+#: includes/settings/class-settings-api.php:471
+msgid "Custom instructions allow you to guide the AI's behavior with your brand voice, terminology preferences, and content guidelines."
+msgstr ""
+
+#: includes/settings/class-settings-api.php:473
+msgid "to customize AI behavior for your specific needs."
+msgstr ""
+
+#: includes/settings/class-settings-api.php:475
+msgid "Add custom instructions to guide the AI's analysis and content generation. Use this for brand voice guidelines, industry terminology, or content preferences. Keep it concise to minimize API costs."
+msgstr ""
+
+#: includes/settings/class-settings-api.php:488
+msgid "Analysis Prompt Append"
+msgstr ""
+
+#: includes/settings/class-settings-api.php:492
+msgid "Example: Please ignore heading hierarchy issues. Focus only on content quality and keyword optimization."
+msgstr ""
+
+#: includes/settings/class-settings-api.php:494
+msgid "Add custom instructions to the analysis prompt. This will be appended to every analysis request."
+msgstr ""
+
+#: includes/settings/class-settings-api.php:495
+#: includes/settings/class-settings-api.php:511
+msgid "Examples:"
+msgstr ""
+
+#: includes/settings/class-settings-api.php:496
+msgid "\"Write in a conversational, approachable tone\""
+msgstr ""
+
+#: includes/settings/class-settings-api.php:497
+msgid "\"Use British English spelling throughout\""
+msgstr ""
+
+#: includes/settings/class-settings-api.php:498
+msgid "\"Focus on technical accuracy over keyword optimization\""
+msgstr ""
+
+#: includes/settings/class-settings-api.php:499
+#: includes/settings/class-settings-api.php:515
+#: includes/settings/class-settings-renderer.php:131
+msgid "characters"
+msgstr ""
+
+#: includes/settings/class-settings-api.php:504
+msgid "Content Rewrite Prompt Append"
+msgstr ""
+
+#: includes/settings/class-settings-api.php:508
+msgid "Example: Do not modify the title or headings. Keep the existing tone and writing style."
+msgstr ""
+
+#: includes/settings/class-settings-api.php:510
+msgid "Add custom instructions to the content rewrite prompt. This will be appended to every draft creation request."
+msgstr ""
+
+#: includes/settings/class-settings-api.php:512
+msgid "\"Always maintain a professional tone\""
+msgstr ""
+
+#: includes/settings/class-settings-api.php:513
+msgid "\"Use 'clients' not 'customers'\""
+msgstr ""
+
+#: includes/settings/class-settings-api.php:514
+msgid "\"Include data citations for all statistics mentioned\""
+msgstr ""
+
+#: includes/settings/class-settings-api.php:605
+msgid "API key is too long. Please check you pasted the correct key."
+msgstr ""
+
+#: includes/settings/class-settings-api.php:611
+msgid "Invalid OpenAI API key format. OpenAI keys start with \"sk-\" followed by letters, numbers, underscores and dashes. Please check your key and try again."
+msgstr ""
+
+#: includes/settings/class-settings-filters.php:50
+msgid "Content Update Filters"
+msgstr ""
+
+#: includes/settings/class-settings-filters.php:59
+msgid "Free Version: Locked to Factual Updates + HIGH Severity"
+msgstr ""
+
+#: includes/settings/class-settings-filters.php:62
+msgid "Free version draft creation is limited to fixing critical Factual Updates issues only."
+msgstr ""
+
+#: includes/settings/class-settings-filters.php:64
+msgid "to customize categories and severity levels."
+msgstr ""
+
+#: includes/settings/class-settings-filters.php:69
+msgid "Select which types of issues should be fixed when creating content drafts. Analysis will still identify all issues regardless of these settings."
+msgstr ""
+
+#: includes/settings/class-settings-filters.php:86
+msgid "STEP 1: Choose Categories to Fix"
+msgstr ""
+
+#: includes/settings/class-settings-filters.php:89
+msgid "Select which types of issues you want fixed in draft updates."
+msgstr ""
+
+#: includes/settings/class-settings-filters.php:110
+msgid "Outdated statistics, broken links, factual errors, discontinued tools/services"
+msgstr ""
+
+#: includes/settings/class-settings-filters.php:119
+msgid "Poor navigation, intent mismatch, slow value delivery, accessibility problems"
+msgstr ""
+
+#: includes/settings/class-settings-filters.php:128
+msgid "Meta descriptions, keywords, image alt text, technical SEO structure"
+msgstr ""
+
+#: includes/settings/class-settings-filters.php:137
+msgid "ChatGPT, Claude, Perplexity citation optimization (527% traffic growth in 2025!)"
+msgstr ""
+
+#: includes/settings/class-settings-filters.php:146
+msgid "Featured snippets, FAQ schema markup, internal linking strategies, keyword clustering"
+msgstr ""
+
+#: includes/settings/class-settings-filters.php:175
+msgid "STEP 2: Choose Severity Levels"
+msgstr ""
+
+#: includes/settings/class-settings-filters.php:178
+msgid "Within selected categories above, fix issues based on how critical they are."
+msgstr ""
+
+#: includes/settings/class-settings-filters.php:202
+msgid "High Severity"
+msgstr ""
+
+#: includes/settings/class-settings-filters.php:203
+msgid "Critical problems with direct revenue impact (broken navigation, missing meta, intent mismatches)"
+msgstr ""
+
+#: includes/settings/class-settings-filters.php:211
+msgid "Medium Severity"
+msgstr ""
+
+#: includes/settings/class-settings-filters.php:212
+msgid "Important improvements with growing value (weak keywords, AI comprehension issues, schema opportunities)"
+msgstr ""
+
+#: includes/settings/class-settings-filters.php:220
+msgid "Low Severity"
+msgstr ""
+
+#: includes/settings/class-settings-filters.php:221
+msgid "Minor tweaks and incremental gains (readability improvements, style consistency, formatting polish)"
+msgstr ""
+
+#: includes/settings/class-settings-filters.php:240
+msgid "💡 How it works:"
+msgstr ""
+
+#: includes/settings/class-settings-filters.php:241
+msgid "Analysis finds ALL issues. These checkboxes control which issues get FIXED in drafts."
+msgstr ""
+
+#: includes/settings/class-settings-filters.php:242
+msgid "Cost Impact:"
+msgstr ""
+
+#: includes/settings/class-settings-filters.php:242
+msgid "More categories + severity levels = longer AI prompts = higher costs"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:55
+msgid "Article Prioritization"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:60
+msgid "Enable GSC-based article prioritization"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:63
+msgid "When enabled, articles will be prioritized based on Google Search Console performance data. Requires GSC authentication below."
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:70
+msgid "Date for Age Calculation"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:78
+msgid "Published Date"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:83
+msgid "Modified Date"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:86
+msgid "Choose which date to use for calculating content age in the priority score. Published Date prioritizes older posts, while Modified Date prioritizes posts that haven't been updated recently."
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:93
+msgid "Connection Status"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:97
+msgid "✓ Connected to Google Search Console"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:105
+#: includes/settings/class-settings-gsc.php:118
+msgid "Run Diagnostics"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:108
+msgid "Disconnect"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:113
+msgid "✗ Not connected to Google Search Console"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:125
+msgid "GSC Connection Diagnostics"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:132
+msgid "OAuth Client ID"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:136
+msgid "Your Google OAuth 2.0 Client ID. Get this from the Google Cloud Console."
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:142
+msgid "OAuth Client Secret"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:146
+msgid "Your Google OAuth 2.0 Client Secret. Keep this secure."
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:152
+msgid "Redirect URI"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:156
+msgid "Add this exact URL to your Google OAuth 2.0 configuration as an authorized redirect URI."
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:162
+msgid "Authentication"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:167
+msgid "Connect to Google Search Console"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:170
+msgid "Already authenticated. Use the disconnect button above to re-authenticate."
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:174
+msgid "Please save your OAuth credentials first, then you can authenticate."
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:182
+msgid "Save Settings"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:196
+msgid "Prioritization Criteria"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:201
+msgid "Prioritization is active. Articles are ranked using these GSC metrics:"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:206
+msgid "When GSC prioritization is enabled, articles will be ranked using these metrics:"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:213
+msgid "Metric"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:214
+msgid "Weight"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:215
+msgid "Description"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:220
+msgid "Impressions"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:222
+msgid "How often the article appears in Google search results. Higher impressions = more visibility potential."
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:225
+msgid "Click-Through Rate (CTR)"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:227
+msgid "Percentage of impressions that result in clicks. Low CTR indicates poor title/meta description."
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:230
+msgid "Average Position"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:232
+msgid "Average ranking position in search results. Articles ranking 4-10 have the most optimization potential."
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:235
+msgid "Clicks"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:237
+msgid "Total clicks received. Shows actual traffic value and user interest."
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:243
+msgid "How Priority Score Works"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:245
+msgid "Articles with <strong>high impressions</strong> but <strong>low CTR</strong> or <strong>position 4-10</strong> receive the highest priority scores. These are \"quick win\" opportunities where small optimizations can yield significant traffic gains."
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:251
+msgid "Enable GSC-based prioritization above and connect your Google Search Console account to activate this feature."
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:266
+#: includes/settings/class-settings-gsc.php:722
+msgid "Show Setup Instructions"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:274
+msgid "Create or Select a Google Cloud Project"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:276
+msgid "Google Cloud Console - Create Project"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:278
+msgid "Click the <strong>\"NEW PROJECT\"</strong> button in the top right"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:279
+msgid "Enter a project name (e.g., \"FreshRank AI GSC Integration\")"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:280
+#: includes/settings/class-settings-gsc.php:300
+#: includes/settings/class-settings-gsc.php:331
+msgid "Click <strong>\"CREATE\"</strong>"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:282
+msgid "Or select an existing project from the project dropdown at the top of the page."
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:285
+msgid "Enable the Google Search Console API"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:287
+msgid "Search Console API Library Page"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:289
+msgid "Make sure your project is selected in the top dropdown"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:290
+msgid "Click the blue <strong>\"ENABLE\"</strong> button"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:291
+msgid "Wait for the API to be enabled (takes a few seconds)"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:295
+msgid "Configure OAuth Consent Screen"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:297
+msgid "OAuth Consent Screen"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:299
+msgid "Select <strong>\"External\"</strong> user type"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:301
+msgid "Fill in the required fields:"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:303
+msgid "<strong>App name:</strong> FreshRank AI"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:304
+msgid "<strong>User support email:</strong> Your email"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:305
+msgid "<strong>Developer contact:</strong> Your email"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:307
+msgid "Click <strong>\"SAVE AND CONTINUE\"</strong> through all screens"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:311
+msgid "Create OAuth 2.0 Credentials"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:313
+msgid "Credentials Page"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:315
+msgid "Click <strong>\"+ CREATE CREDENTIALS\"</strong> at the top"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:316
+msgid "Select <strong>\"OAuth client ID\"</strong>"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:317
+msgid "Choose <strong>\"Web application\"</strong> as the application type"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:318
+msgid "Enter a name (e.g., \"FreshRank AI Client\")"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:322
+msgid "Add Authorized Redirect URI"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:324
+msgid "In the OAuth client configuration:"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:325
+msgid "Scroll down to <strong>\"Authorized redirect URIs\"</strong>"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:326
+msgid "Click <strong>\"+ ADD URI\"</strong>"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:327
+msgid "Copy and paste this exact URI:"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:330
+msgid "The URI must match exactly, including https:// and any trailing paths."
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:334
+msgid "Copy Your Credentials"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:336
+msgid "A popup will appear with your credentials:"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:337
+msgid "Copy the <strong>\"Client ID\"</strong> and paste it in the field above"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:338
+msgid "Copy the <strong>\"Client Secret\"</strong> and paste it in the field above"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:339
+msgid "Click <strong>\"OK\"</strong> to close the popup"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:341
+msgid "You can always find these credentials later in the Google Cloud Console under Credentials."
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:344
+msgid "Save and Connect"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:346
+msgid "Scroll up and paste your Client ID and Client Secret into the fields"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:347
+msgid "Click <strong>\"Save Changes\"</strong> at the bottom of this page"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:348
+msgid "After saving, click the <strong>\"Connect to Google Search Console\"</strong> button"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:349
+msgid "Authorize FreshRank AI to access your Google Search Console data"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:351
+msgid "Once connected, FreshRank AI will automatically prioritize articles based on their Search Console performance!"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:374
+msgid "Go to"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:401
+msgid "Copy"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:431
+msgid "Debug Information"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:494
+msgid "Refresh Debug Info"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:719
+msgid "Hide Setup Instructions"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:738
+msgid "Copied!"
+msgstr ""
+
+#: includes/settings/class-settings-gsc.php:754
+msgid "Failed to copy. Please copy manually."
+msgstr ""
+
+#: includes/settings/class-settings-renderer.php:325
+msgid "Save Changes"
+msgstr ""
+
+#: includes/utilities/class-ajax-response.php:80
+msgid "You do not have permission to perform this action."
+msgstr ""
+
+#: includes/utilities/class-html-builder.php:413
+msgid "Completed"
+msgstr ""
+
+#: includes/utilities/class-validation-helper.php:42
+msgid "Invalid post ID. Must be a positive integer."
+msgstr ""
+
+#: includes/utilities/class-validation-helper.php:48
+msgid "Post not found."
+msgstr ""
+
+#: includes/utilities/class-validation-helper.php:75
+msgid "Invalid model name. Only alphanumeric characters, dashes, dots, slashes, and colons are allowed."
+msgstr ""
+
+#: includes/utilities/class-validation-helper.php:79
+msgid "Model name is too long. Maximum 100 characters."
+msgstr ""
+
+#: includes/utilities/class-validation-helper.php:100
+msgid "API key cannot be empty."
+msgstr ""
+
+#: includes/utilities/class-validation-helper.php:105
+msgid "Invalid API key format."
+msgstr ""
+
+#: includes/utilities/class-validation-helper.php:109
+msgid "API key is too short. Minimum 10 characters."
+msgstr ""
+
+#: includes/utilities/class-validation-helper.php:113
+msgid "API key is too long. Maximum 200 characters."
+msgstr ""
+
+#: includes/utilities/class-validation-helper.php:135
+msgid "URL cannot be empty."
+msgstr ""
+
+#: includes/utilities/class-validation-helper.php:140
+msgid "Invalid URL format."
+msgstr ""
+
+#. translators: %s is the list of allowed protocols
+#: includes/utilities/class-validation-helper.php:149
+msgid "Invalid URL protocol. Allowed protocols: %s"
+msgstr ""
+
+#: includes/utilities/class-validation-helper.php:173
+msgid "Email address cannot be empty."
+msgstr ""
+
+#: includes/utilities/class-validation-helper.php:177
+msgid "Invalid email address format."
+msgstr ""
+
+#: includes/utilities/class-validation-helper.php:202
+msgid "Invalid color format. Must be a valid hex color code (e.g., #FF0000 or #F00)."
+msgstr ""
+
+#: includes/utilities/class-validation-helper.php:222
+msgid "Value must be an array."
+msgstr ""
+
+#. translators: %s is the list of allowed values
+#: includes/utilities/class-validation-helper.php:265
+msgid "Invalid value. Allowed values: %s"
+msgstr ""
+
+#. translators: %1$d is the minimum value, %2$d is the maximum value
+#: includes/utilities/class-validation-helper.php:294
+msgid "Value must be between %1$d and %2$d."
+msgstr ""
+
+#: includes/utilities/class-validation-helper.php:347
+msgid "JSON data cannot be empty."
+msgstr ""
+
+#. translators: %s is the error message
+#: includes/utilities/class-validation-helper.php:356
+msgid "Invalid JSON: %s"
+msgstr ""
+
+#. translators: %d is the number of characters
+#: includes/utilities/class-validation-helper.php:386
+msgid "Text must be at least %d characters long."
+msgstr ""
+
+#. translators: %d is the number of characters
+#: includes/utilities/class-validation-helper.php:396
+msgid "Text must not exceed %d characters."
+msgstr ""
+
+#. translators: %d is the number of characters
+#: includes/utilities/class-validation-helper.php:426
+msgid "Content must be at least %d characters long."
+msgstr ""
+
+#. translators: %d is the number of characters
+#: includes/utilities/class-validation-helper.php:436
+msgid "Content must not exceed %d characters."
+msgstr ""

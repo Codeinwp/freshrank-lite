@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'codeinwp/freshrank-ai',
-        'pretty_version' => 'dev-f7a52c2a37eb80d4e7714eb7904fd6036b043ab1',
-        'version' => 'dev-f7a52c2a37eb80d4e7714eb7904fd6036b043ab1',
-        'reference' => 'f7a52c2a37eb80d4e7714eb7904fd6036b043ab1',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => 'a99007186a1d86d79e772b5f253bfceba413f783',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'codeinwp/freshrank-ai' => array(
-            'pretty_version' => 'dev-f7a52c2a37eb80d4e7714eb7904fd6036b043ab1',
-            'version' => 'dev-f7a52c2a37eb80d4e7714eb7904fd6036b043ab1',
-            'reference' => 'f7a52c2a37eb80d4e7714eb7904fd6036b043ab1',
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => 'a99007186a1d86d79e772b5f253bfceba413f783',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

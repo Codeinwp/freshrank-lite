@@ -573,7 +573,7 @@ class FreshRank_Database {
 	 * Now shows ALL published articles regardless of tracking status
 	 */
 	public function get_articles_with_scores( $limit = null, $offset = 0, $filters = array() ) {
-		$prioritization_enabled = get_option( 'freshrank_prioritization_enabled', false );
+		$prioritization_enabled = get_option( 'freshrank_prioritization_enabled', 0 );
 		$has_display_order      = $this->has_display_order_column();
 
 		// Get sorting parameters from URL - SECURITY: whitelist allowed values

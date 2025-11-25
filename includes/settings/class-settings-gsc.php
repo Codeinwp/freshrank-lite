@@ -31,7 +31,7 @@ class FreshRank_Settings_GSC {
 	 */
 	public function render_gsc_settings() {
 		$gsc_authenticated      = get_option( 'freshrank_gsc_authenticated', false );
-		$prioritization_enabled = get_option( 'freshrank_prioritization_enabled', false );
+		$prioritization_enabled = get_option( 'freshrank_prioritization_enabled', 0 );
 		$client_id              = get_option( 'freshrank_gsc_client_id', '' );
 
 		// Decrypt client secret for display (show placeholder if encrypted)

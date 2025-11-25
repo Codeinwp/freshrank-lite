@@ -109,3 +109,5 @@ Your content is temporarily sent to OpenAI’s API for analysis and updates, but
 All your articles, drafts, and analysis results are stored securely in your WordPress database on your own server. When you enable Google Search Console integration, only performance metrics are retrieved—not your content.
 
 Your API keys are also stored securely in your WordPress database and never shared with third parties.
+
+== Changelog ==

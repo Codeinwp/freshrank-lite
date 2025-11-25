@@ -458,7 +458,7 @@ class FreshRank_GSC_API {
 
 			// If we found data (non-zero impressions), cache and return it
 			if ( $result && $result['impressions'] > 0 ) {
-				if ( get_option( 'freshrank_debug_mode', false ) ) {
+				if ( get_option( 'freshrank_debug_mode', 0 ) ) {
 					freshrank_debug_log( "GSC Success with URL: $test_url - Impressions: {$result['impressions']}, Clicks: {$result['clicks']}" );
 				}
 
@@ -474,7 +474,7 @@ class FreshRank_GSC_API {
 		}
 
 		// If no variation returned data, log all attempts and return zeros
-		if ( get_option( 'freshrank_debug_mode', false ) ) {
+		if ( get_option( 'freshrank_debug_mode', 0 ) ) {
 			freshrank_debug_log( "GSC: No data found for any URL variation of: $url" );
 			freshrank_debug_log( 'GSC: Tried URLs: ' . implode( ', ', $url_variations ) );
 		}
@@ -576,7 +576,7 @@ class FreshRank_GSC_API {
 			}
 		}
 
-		if ( get_option( 'freshrank_debug_mode', false ) ) {
+		if ( get_option( 'freshrank_debug_mode', 0 ) ) {
 			freshrank_debug_log( "GSC: No top queries found for any URL variation of: $url" );
 			freshrank_debug_log( 'GSC: Tried URLs for queries: ' . implode( ', ', $url_variations ) );
 		}
@@ -588,7 +588,7 @@ class FreshRank_GSC_API {
 	 * Attempt to fetch top queries for a URL variation
 	 */
 	private function try_get_top_queries( $site_property, $url, $start_date, $end_date, $limit ) {
-		if ( get_option( 'freshrank_debug_mode', false ) ) {
+		if ( get_option( 'freshrank_debug_mode', 0 ) ) {
 			freshrank_debug_log( "GSC API - Fetching top queries for URL: $url" );
 		}
 
@@ -639,7 +639,7 @@ class FreshRank_GSC_API {
 
 			return $results;
 		} catch ( Exception $e ) {
-			if ( get_option( 'freshrank_debug_mode', false ) ) {
+			if ( get_option( 'freshrank_debug_mode', 0 ) ) {
 				freshrank_debug_log( "GSC API Error (top queries) for $url: " . $e->getMessage() );
 			}
 			return array();
@@ -651,7 +651,7 @@ class FreshRank_GSC_API {
 	 */
 	private function try_url_analytics( $site_property, $url, $start_date, $end_date ) {
 		// Debug logging
-		if ( get_option( 'freshrank_debug_mode', false ) ) {
+		if ( get_option( 'freshrank_debug_mode', 0 ) ) {
 			freshrank_debug_log( "GSC API - Trying URL: $url" );
 			freshrank_debug_log( "GSC API - Site Property: $site_property" );
 			freshrank_debug_log( "GSC API - Date Range: $start_date to $end_date" );
@@ -704,7 +704,7 @@ class FreshRank_GSC_API {
 			return $result;
 
 		} catch ( Exception $e ) {
-			if ( get_option( 'freshrank_debug_mode', false ) ) {
+			if ( get_option( 'freshrank_debug_mode', 0 ) ) {
 				freshrank_debug_log( "GSC API Error for $url: " . $e->getMessage() );
 			}
 

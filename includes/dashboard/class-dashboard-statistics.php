@@ -114,7 +114,7 @@ class FreshRank_Dashboard_Statistics {
 
 			<?php
 			// Show GSC last refresh indicator if prioritization is enabled
-			$prioritization_enabled = get_option( 'freshrank_prioritization_enabled', false );
+			$prioritization_enabled = get_option( 'freshrank_prioritization_enabled', 0 );
 			if ( $prioritization_enabled ) :
 				$last_prioritization = get_option( 'freshrank_last_prioritization_run', 0 );
 				if ( $last_prioritization > 0 ) :
